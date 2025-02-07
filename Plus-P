@@ -1,0 +1,247 @@
+{ "name" : "Plus", "info" : "", 
+"author" : "Plus+ (ViP)", 
+"image" : "https://www.i-pic.info/i/5PQg584649.png",
+
+ "groups" : [
+
+{ "name" : "Netflix","author": "", "info" : "", "image" : "https://www.i-pic.info/i/r4kK584632.png", "groups" : [
+{ "name" : "Server00", "info" : "123hd", "image" : "https://www.i-pic.info/i/r4kK584632.png", "url" : "https://drive.google.com/uc?id=17vaj42XKCOv3gagiRwCA60FcSrUNM5sF", "import": "false"},
+{ "name" : "Server01", "info" : "4k", "image" : "https://www.i-pic.info/i/r4kK584632.png", "url" : "https://drive.google.com/uc?id=14u3UWKeW7hxq6zYBdK9CQ1C6oWxIn1eL", "import": "false"},
+{ "name" : "Server02", "info" : "", "image" : "https://www.i-pic.info/i/r4kK584632.png", "url" : "https://www.dropbox.com/scl/fi/8odigl30wbhr7qfsid82w/Netflix-mv02.txt?rlkey=84lxd2628j3fpyqtaj9nbae8h&dl=1", "import": "false"},
+{ "name" : "Server03", "info" : "", "image" : "https://www.i-pic.info/i/r4kK584632.png", "url" : "https://www.dropbox.com/scl/fi/xn6w7ah5frzxyaawt8oyg/Netflix-mv03.txt?rlkey=la8v558ty211s4t9a0dpshcdd&dl=1", "import": "false"},
+{ "name" : "Server04", "info" : "", "image" : "https://www.i-pic.info/i/r4kK584632.png", "url" : "https://www.dropbox.com/scl/fi/8l8hmi50yrbjztkr7gkct/Netflix-mv04.txt?rlkey=3a02svyxrq4bjeqdj9g7jiik6&dl=1", "import": "false"},
+{ "name" : "Server05", "info" : "", "image" : "https://www.i-pic.info/i/r4kK584632.png", "url" : "https://www.dropbox.com/scl/fi/54je6fdoyyudkwy6dpch3/Netflix-mv05.txt?rlkey=tw8cwdp3mq3q998nnateju96j&dl=1", "import": "false"},
+
+{ "name" : "Server06 movie", "info" : "", "image" : "https://www.i-pic.info/i/r4kK584632.png", "url" : "https://www.dropbox.com/scl/fi/vn15ulluv6hkwi0mu7ewp/Netflix-sr01.txt?rlkey=0ceilv81n9ilartyutb9arcjq&dl=1", "import": "false"},
+{ "name" : "Server07", "info" : "", "image" : "https://www.i-pic.info/i/r4kK584632.png", "url" : "https://www.dropbox.com/scl/fi/dfsu8178288f0sxwe2g4c/Netflix-sr02.txt?rlkey=3onvuc0gv8l2qrzi51uos2d6j&dl=1", "import": "false"},
+{ "name" : "Server08", "info" : "", "image" : "https://www.i-pic.info/i/r4kK584632.png", "url" : "https://www.dropbox.com/scl/fi/3z6cogc3b43r3ipyvkzcr/Netflix-sr03.txt?rlkey=wxzum9l1xewd3ntk9r7avm06d&dl=1", "import": "false"},
+{ "name" : "Server09", "info" : "", "image" : "https://www.i-pic.info/i/r4kK584632.png", "url" : "https://www.dropbox.com/scl/fi/p5flbubu5c01unbscez28/Netflix-sr04.txt?rlkey=rj4xkov4av947hp4owzos843t&dl=1", "import": "false"},
+{ "name" : "Server10", "info" : "", "image" : "https://www.i-pic.info/i/r4kK584632.png", "url" : "https://www.dropbox.com/scl/fi/pktpiwcguxgy4ybcpujbe/Netflix-sr05.txt?rlkey=nrwxi4yyhc914tppujtmwnd4n&dl=1", "import": "false"},
+
+]},
+
+
+{ "name" : "Disney+ Hotstar","author": "", "info" : "", "image" : "https://www.i-pic.info/i/BVei584634.png", "groups" : [
+
+{ "name" : "Server01", "info" : "", "image" : "https://www.i-pic.info/i/BVei584634.png", "url" : "https://drive.google.com/uc?id=14cxELGrgdEJbM8uIFJgzGoSq0leK0FHj", "import": "false"},
+{ "name" : "Server02", "info" : "", "image" : "https://www.i-pic.info/i/BVei584634.png", "url" : "https://www.dropbox.com/scl/fi/794wfly7ltk2ahmbreyef/Disney-mv02.txt?rlkey=vvwd3xb7ho1vpy8sz5idd43ca&dl=1", "import": "false"},
+{ "name" : "Server03", "info" : "", "image" : "https://www.i-pic.info/i/BVei584634.png", "url" : "https://www.dropbox.com/scl/fi/9qsm0aa3wporqd3svm7rs/Disney-mv03.txt?rlkey=8y42snhdr917uuar6zyflmybv&dl=1", "import": "false"},
+{ "name" : "Server04", "info" : "", "image" : "https://www.i-pic.info/i/BVei584634.png", "url" : "https://www.dropbox.com/scl/fi/fin4szrg8polxjdec36wt/Disney-mv04.txt?rlkey=z0i2os6z22843l02mb9vv2wuc&dl=1", "import": "false"},
+{ "name" : "Server05", "info" : "", "image" : "https://www.i-pic.info/i/BVei584634.png", "url" : "https://www.dropbox.com/scl/fi/aix3zo74kfalofaop5nid/Disney-mv05.txt?rlkey=yem2m83axqa6d2ju2631bvedj&dl=1", "import": "false"},
+
+{ "name" : "Server06", "info" : "", "image" : "https://www.i-pic.info/i/BVei584634.png", "url" : "https://www.dropbox.com/scl/fi/p4wuyapmop6om1lrrj33u/Disney-sr01.txt?rlkey=ky50schg91x4rkiltfbmo3t60&dl=1", "import": "false"},
+{ "name" : "Server07", "info" : "", "image" : "https://www.i-pic.info/i/BVei584634.png", "url" : "https://www.dropbox.com/scl/fi/9ajigigxfxqvkzujul8t9/Disney-sr02.txt?rlkey=4hnpvtrzj6yeaszy0rtvlvbl5&dl=1", "import": "false"},
+{ "name" : "Server08", "info" : "", "image" : "https://www.i-pic.info/i/BVei584634.png", "url" : "https://www.dropbox.com/scl/fi/tt8qbhvy9tz61xir020ra/Disney-sr03.txt?rlkey=1bn8p0p2cts0skj311zffd67l&dl=1", "import": "false"},
+{ "name" : "Server09", "info" : "", "image" : "https://www.i-pic.info/i/BVei584634.png", "url" : "https://www.dropbox.com/scl/fi/y0u2v6vql0iyyig1cs19f/Disney-sr04.txt?rlkey=78pnoh1tsgodqgzp6bdp65y6e&dl=1", "import": "false"},
+{ "name" : "Server10", "info" : "", "image" : "https://www.i-pic.info/i/BVei584634.png", "url" : "https://www.dropbox.com/scl/fi/sij6v3vjfy8w3moblus5z/Disney-sr05.txt?rlkey=a4gv26rpnpfl90f5mop2a2qom&dl=1", "import": "false"},]},
+
+
+{ "name" : "iQIYI","author": "", "info" : "", "image" : "https://www.i-pic.info/i/X0Sv585698.png", "groups" : [
+
+{ "name" : "Server01", "info" : "", "image" : "https://www.i-pic.info/i/X0Sv585698.png", "url" : "https://drive.google.com/uc?id=14on-tN7wzUtQ51T46dAAaax1YKoqLad0", "import": "false"},
+{ "name" : "Server02", "info" : "", "image" : "https://www.i-pic.info/i/X0Sv585698.png", "url" : "https://www.dropbox.com/scl/fi/54t3shiqptk3jofw46xfc/iQIYI-sr02.txt?rlkey=u51c6n0rghkgoxb0khvsdi5x7&dl=1", "import": "false"},
+{ "name" : "Server03", "info" : "", "image" : "https://www.i-pic.info/i/X0Sv585698.png", "url" : "https://www.dropbox.com/scl/fi/o6oq0t6xmls1w8eqsexe8/iQIYI-sr03.txt?rlkey=tr1bgqgl8e6gh4u3rvzfgqkgo&dl=1", "import": "false"},
+{ "name" : "Server04", "info" : "", "image" : "https://www.i-pic.info/i/X0Sv585698.png", "url" : "", "import": "false"},
+{ "name" : "Server05", "info" : "", "image" : "https://www.i-pic.info/i/X0Sv585698.png", "url" : "https://www.dropbox.com/scl/fi/hlntg8ym95jcm8aj2a4h1/iQIYI-sr01.txt?rlkey=chyru4t0d9e2lmfa6582m2iwj&dl=1", "import": "false"},]},
+
+
+{ "name" : "WeTV","author": "", "info" : "", "image" : "https://www.i-pic.info/i/aRkQ585695.png", "groups" : [
+{ "name" : "Server01", "info" : "", "image" : "https://www.i-pic.info/i/aRkQ585695.png", "url" : "https://drive.google.com/uc?id=155jtYrs9BVXvDU9cLsZk8NFv6WtOcojK", "import": "false"},
+{ "name" : "Server02", "info" : "", "image" : "https://www.i-pic.info/i/aRkQ585695.png", "url" : "https://www.dropbox.com/scl/fi/2q0g9hocoxy2eo0ccynzh/Wetv-sr02.txt?rlkey=79486evoe83ixfdijseuq85b5&dl=1", "import": "false"},
+{ "name" : "Server03", "info" : "", "image" : "https://www.i-pic.info/i/aRkQ585695.png", "url" : "https://www.dropbox.com/scl/fi/9967ipf2a9b7r6eod53d9/Wetv-sr03.txt?rlkey=1u5a654pzjehrh8q13casntce&dl=1", "import": "false"},
+{ "name" : "Server04", "info" : "", "image" : "https://www.i-pic.info/i/aRkQ585695.png", "url" : "", "import": "false"},
+{ "name" : "Server05", "info" : "", "image" : "https://www.i-pic.info/i/aRkQ585695.png", "url" : "", "import": "false"},]},
+
+
+
+
+
+
+{ "name" : "VIU","author": "", "info" : "", "image" : "https://www.i-pic.info/i/XsHA638799.png", "groups" : [
+{ "name" : "Server01", "info" : "", "image" : "https://www.i-pic.info/i/XsHA638799.png", "url" : "https://drive.google.com/uc?id=152Boe-XZU4fYhsZWjszU_bGTvVC6wUC1", "import": "false"},
+{ "name" : "Server02", "info" : "", "image" : "https://www.i-pic.info/i/XsHA638799.png", "url" : "https://www.dropbox.com/scl/fi/c15bbvxahlgxnu97oeony/VIU-sr02.txt?rlkey=ri77806lftlrhpy32kgcfjbds&dl=1", "import": "false"},
+{ "name" : "Server03", "info" : "", "image" : "https://www.i-pic.info/i/XsHA638799.png", "url" : "https://www.dropbox.com/scl/fi/47vknlp2xl67ty02blpnd/VIU-sr03.txt?rlkey=om50dli1k2fwzqq0y7rtfjm5o&dl=1", "import": "false"},]},
+
+
+
+{ "name" : "Youku","author": "", "info" : "", "image" : "https://www.i-pic.info/i/ZATK638801.jpg", "groups" : [
+{ "name" : "Server01", "info" : "", "image" : "https://www.i-pic.info/i/ZATK638801.jpg", "url" : "https://www.dropbox.com/scl/fi/gwr8plb2svradld3eghlz/Youku-sr01.txt?rlkey=z1dw1jqfs8tm5d7574202wkmw&dl=1", "import": "false"},
+{ "name" : "Server02", "info" : "", "image" : "https://www.i-pic.info/i/ZATK638801.jpg", "url" : "https://www.dropbox.com/scl/fi/dftprgztj7jtsqgqog9p0/Youku-sr02.txt?rlkey=2dxko5gojimkzugugo2gcrxtw&dl=1", "import": "false"},
+{ "name" : "Server03", "info" : "", "image" : "https://www.i-pic.info/i/ZATK638801.jpg", "url" : "https://www.dropbox.com/scl/fi/z1cebehdj08m4wc9zzx60/Youku-sr03.txt?rlkey=tsgdq5ewyw07fwgi12ybz7yky&dl=1", "import": "false"},]},
+
+{ "name" : "HBO","author": "", "info" : "", "image" : "https://www.i-pic.info/i/oF5r638802.png", "groups" : [
+{ "name" : "Server01", "info" : "", "image" : "https://www.i-pic.info/i/oF5r638802.png", "url" : "https://drive.google.com/uc?id=14jVcifpg7h21B_evv5zt-YsiiqPGPTsI", "import": "false"},
+{ "name" : "Server02", "info" : "", "image" : "https://www.i-pic.info/i/oF5r638802.png", "url" : "https://drive.google.com/uc?id=189cNvFFPTWkEGvtjlkH5BHQpHmqpP-22", "import": "false"},
+{ "name" : "Server03", "info" : "", "image" : "https://www.i-pic.info/i/oF5r638802.png", "url" : "", "import": "false"},]},
+
+{ "name" : "TrueId","author": "", "info" : "", "image" : "https://truegether.true.th/hubfs/assets_logos/logo-true-id-plus-200x200.png", "groups" : [
+{ "name" : "Server01", "info" : "", "image" : "https://truegether.true.th/hubfs/assets_logos/logo-true-id-plus-200x200.png", "url" : "", "import": "false"},
+{ "name" : "Server02", "info" : "", "image" : "https://truegether.true.th/hubfs/assets_logos/logo-true-id-plus-200x200.png", "url" : "https://raw.githubusercontent.com/provides1/new/refs/heads/main/tongha-movie_22-true_id.w3u", "import": "false"},
+{ "name" : "Server03", "info" : "", "image" : "https://truegether.true.th/hubfs/assets_logos/logo-true-id-plus-200x200.png", "url" : "", "import": "false"},]},
+
+
+
+#--------------ok-----------
+{"name"   : "Link free","info"   : "https://drive.google.com/uc?id=1a_boVjq0T10SwjrBXi_18pQ-J6bqqWvH","image"  : "https://drive.google.com/uc?id=1MKQJThU9cuYaINjed78fRDS5y4ZljWyo","groups" : [
+
+{
+ "name": " ๐“บLegal IPTV๐“บ ",
+ "author": "๐ฆHOUK๐ฆ",
+ "info": "DKL",
+ "image": "https://iili.io/23SA3jj.jpg",
+ "url": "http://tiny.cc/LEGALIPTV",
+"import": "false"},
+
+
+{ "name" : "🅻🆄🆇🅳🅾 ​🆃🆅", "info" : "", "image" : "https://dl.dropboxusercontent.com/scl/fi/uyti3393ojnjip4b4lq0a/LuxdotvLOGOCM3.png?rlkey=sryq4r8k2s8unyx67u6ttrpoy&dl=0", "url" : "https://dl.dropboxusercontent.com/scl/fi/d4z8fj9vy5gqkjpgpn79p/luxDu_dOFREE.txt?rlkey=60ex9yrum3z8j1fbyn2ucegzq&st=md3maze7&dl=0", "import": "false"},
+
+
+{ "name" : "Guflix", "info" : "", "image" : "http://guflix.streaming-fast.com/logo/guflix.gif", "url" : "http://guflix.streaming-fast.com/wiseplay/guflix/playlist.m3u8", "import": "false"},
+{ "name" : "เถื่อน🆃🆅", "info" : "", "image" : "https://dl.dropboxusercontent.com/scl/fi/1aqngjr1gaa29ku3qzul7/logo.png?rlkey=zdpjtablgmjksnb6z8r4ntxr5&dl=0", "url" : "https://dl.dropboxusercontent.com/scl/fi/0chfruskhb13vmv5z5hjo/illicit.txt?rlkey=ff5y6wtv58p5wscy2cpdaon56&dl=0", "import": "false"},
+{ "name" : "(=◍․̫◍=) ดูฟรีเพื่อความบันเทิงภายในที่พักอาศัย (=◍․̫◍=)", "info" : "", "image" : "https://i.ibb.co/TWNQhtv/image.png", "url" : "https://br14.short.gy/IPTVSociety", "import": "false"},
+{ "name" : "รายการทีวีสด", "info" : "", "image" : "https://i.pinimg.com/originals/c4/3e/c0/c43ec0cc106bb2c2914c19deda091015.png", "url" : "https://pastebin.com/raw/H8nF9bSs", "import": "false"},
+{ "name" : "NOYKHAMKONG.TV", "info" : "", "image" : "https://i.pinimg.com/474x/2e/78/dd/2e78dda3e43d38867f4960979ab1f991.jpg", "url" : "https://pastebin.com/raw/u7rndh1x", "import": "false"},
+{ "name" : "@PlayIDTV", "info" : "", "image" : "https://dl.dropbox.com/scl/fi/f8886ysdj8jli4tlvx1sr/20231007_192021.png?rlkey=lb74ax6ar38l2t7mro3wd04do&dl=0", "url" : "https://2nud.short.gy/all.php?utm_medium=social&utm_source=heylink.me", "import": "false"},
+{ "name" : "WIN TV", "info" : "", "image" : "https://upload.wikimedia.org/wikipedia/commons/6/6f/IPTV.png", "url" : "https://pastebin.com/raw/YpDkAZPg", "import": "false"},
+{ "name" : "ก๊อบมั๊ย nung2hddd", "info" : "", "image" : "https://i.giphy.com/JeTRVH2Rj3etGaiaCF.gif", "url" : "http://bit.ly/3iAclgr", "import": "false"},
+{ "name" : "ʘ‿ʘ  i3RAVO IPTV", "info" : "", "image" : "https://drive.google.com/uc?id=13YUjTUB3V6sJ2jynC-tW00pITZ-aGmJC", "url" : "https://drive.google.com/uc?id=1JSFYv4eaDgziC8Lhwc9NAlArHMEr4fUb", "import": "false"},
+{ "name" : "เจียว เจียว จัดให้", "info" : "", "image" : "https://i.ibb.co/TWNQhtv/image.png", "url" : "https://raw.githubusercontent.com/main-main-main/main/main-main-main-main-main-main-main-main-main-main-main/main/main/main/main/main/main/main.w3u", "import": "false"},
+{ "name" : "Wiseplay เวปออนไลน์", "info" : "", "image" : "https://sv1.picz.in.th/images/2023/12/04/d0UVZw0.png", "url" : "freenote.biz/raw/fF5nq52VVf", "import": "false"},
+{ "name" : "ทีวีช่องหนัง", "info" : "", "image" : "https://i.postimg.cc/mrrbsRCf/movie.png", "url" : "https://freenote.biz/raw/HjNnY0pQJe", "import": "false"},
+{ "name" : "xtemus.com", "info" : "", "image" : "https://xtemus.com/assets/img/profile.jpg", "url" : "https://playlist.xtemus.com", "import": "false"},
+
+]},
+#--------------ok-----------
+{"name"   : "web","info"   : "https://drive.google.com/uc?id=1a_boVjq0T10SwjrBXi_18pQ-J6bqqWvH","image"  : "https://drive.google.com/uc?id=1MKQJThU9cuYaINjed78fRDS5y4ZljWyo","groups" : [
+
+{ "name" : " Tvallseries ", "info" : "", "image" : "https://tvallseries.com/wp-content/uploads/2021/01/logotvseries.png", "url" : "https://drive.google.com/uc?id=1CK71aLlKt52aCf_WR4ZQEmfGZiNou-N1", "import": "false"},
+{ "name" : "Dooseries4k", "info" : "", "image" : "https://www.dooseries4k.com/wp-content/themes/dooseries4k/logo/logo.png", "url" : "https://drive.google.com/uc?id=15054Zyjz2PK7EJ8d9xnBgrNS6VZwWh8L", "import": "false"},
+{ "name" : "Anime-Indy", "info" : "", "image" : "https://i0.wp.com/anime-indy.com/wp-content/uploads/2022/09/Anime-Indy.com-logo-e1663413747730.png", "url" : "https://drive.google.com/uc?id=13RFqRGSOZBSTOwq-YvFeE9818hnuY0he", "import": "false"},
+{ "name" : "Anime Moji", "info" : "", "image" : "https://i0.wp.com/animemoji.net/wp-content/uploads/2022/04/moji-e1651359028221.png", "url" : "https://drive.google.com/uc?id=196x0N2t-khH8pxP8dmY24RwVizc_VB5w", "import": "false"},
+{ "name" : "123 HD", "info" : "", "image" : "https://www.123-hd.com/wp-content/uploads/2019/10/testa7.png", "url" : "https://drive.google.com/uc?id=1T4Mo-w5413bTyIsp7N_bu7o09RkRb0Bj", "import": "false"},
+{ "name" : "Series-indy", "info" : "", "image" : "https://i0.wp.com/series-indy.com/wp-content/uploads/2023/01/series1111.png", "url" : "https://drive.google.com/uc?id=10Wu_OgA7hZfOKoDVZ9pFrFKezUtqLAyz", "import": "false"},
+{ "name" : "Nung2HD", "info" : "", "image" : "https://www.nung2hdd.com/wp-content/uploads/2018/04/logo2hd.png", "url" : "https://drive.google.com/uc?id=1t1is6ZUd3N5w3VHTOF9GavLnwTZHG4hb", "import": "false"},
+
+
+
+]},
+###--------------------------------------------
+{"name"   : "web online","info"   : "https://drive.google.com/uc?id=1a_boVjq0T10SwjrBXi_18pQ-J6bqqWvH","image"  : "https://drive.google.com/uc?id=1MKQJThU9cuYaINjed78fRDS5y4ZljWyo","groups" : [
+
+
+{"name"   : "TV online","info"   : "https://drive.google.com/uc?id=1a_boVjq0T10SwjrBXi_18pQ-J6bqqWvH","image"  : "https://drive.google.com/uc?id=1MKQJThU9cuYaINjed78fRDS5y4ZljWyo","stations" : [
+
+{ "name" : "dooball2you.com", "info" : "", "image" : "https://dooball2you.com/wp-content/uploads/2023/09/cropped-dooball2you.png", "url" : "https://dooball2you.com/","referer": "", "embed": "true"},
+{ "name" : "www.youdooball.com", "info" : "", "image" : "https://www.youdooball.com/assets/images/logo_big.png", "url" : "https://www.youdooball.com/?r=tv_list","referer": "", "embed": "true"},
+{ "name" : "dooball66s.com", "info" : "", "image" : "https://dooball66s.com/wp-content/uploads/2020/07/cropped-logo.png", "url" : "https://dooball66s.com/","referer": "", "embed": "true"},
+{ "name" : "Dooball2you", "info" : "", "image" : "https://dooball2you.com/wp-content/themes/dooball2you/images/logo-dooball.png", "url" : "https://dooball2you.com/tvonline/","referer": "https://dooball2you.com/", "embed": "true"},
+{ "name" : "ufa77", "info" : "", "image" : "https://media0.giphy.com/media/uFh55a9cUkSwrnRKpo/giphy.gif", "url" : "https://ufa77.tv/all-channels","referer": "https://ufa77.tv/", "embed": "true"},
+{ "name" : "ufabetcompany.com", "info" : "", "image" : "https://ufabetcompany.app/wp-content/uploads/2022/02/logo.png", "url" : "https://ufabetcompany.app/football-channel/","referer": "", "embed": "true"},
+{ "name" : "ufac44.com", "info" : "", "image" : "https://ufac44.com/wp-content/uploads/2020/12/logo-ufac4-2.png", "url" : "https://ufac44.com/%e0%b8%94%e0%b8%b9%e0%b8%9a%e0%b8%ad%e0%b8%a5%e0%b8%aa%e0%b8%94/","referer": "", "embed": "true"},
+{ "name" : "ufanance.co", "info" : "", "image" : "https://ufanance.co/wp-content/uploads/2022/07/logo-ufanance1.png", "url" : "https://ufanance.co/%e0%b8%94%e0%b8%b9%e0%b8%9a%e0%b8%ad%e0%b8%a5%e0%b8%aa%e0%b8%94/","referer": "", "embed": "true"},
+{ "name" : "www.ufazeed2.com", "info" : "", "image" : "https://www.ufazeeds.com/wp-content/uploads/2021/06/logo-ufazeed-v2.png", "url" : "https://www.ufazeeds.com/%e0%b8%94%e0%b8%b9%e0%b8%9a%e0%b8%ad%e0%b8%a5%e0%b8%aa%e0%b8%94/","referer": "", "embed": "true"},
+{ "name" : "24xball.co", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-apps/256/disksearch-icon.png", "url" : "https://24xball.co/match/?id=2247534","referer": "", "embed": "true"},
+{ "name" : "tv2.zhetv.eu.org", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-apps/256/disksearch-icon.png", "url" : "https://tv2.zhetv.eu.org/","referer": "", "embed": "true"},
+{ "name" : "AISCORE", "info" : "", "image" : "https://play-lh.googleusercontent.com/1eSJBkLqqIXCjUxHXN1g52B2J52fLRvMB6pR8C7XeFJZ_koa-LEufmWnoOYIXD__Dr0", "url" : "https://www.aiscore.com/","referer": "https://www.aiscore.com/", "embed": "true"},
+{ "name" : "Baa dooball", "info" : "", "image" : "https://baadooball.com/wp-content/uploads/2021/09/cropped-logo-%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%AD%E0%B8%A5-1.png", "url" : "https://baadooball.com/","referer": "https://baadooball.com/", "embed": "true"},
+{ "name" : "BALLFREE 24hr", "info" : "", "image" : "https://www.dooballfree24hr.com/wp-content/uploads/2022/04/logo394x173.png", "url" : "https://www.dooballfree24hr.com/live-sport/","referer": "https://www.dooballfree24hr.com/", "embed": "true"},
+{ "name" : "Dooball66", "info" : "", "image" : "https://dooball66.com/wp-content/uploads/2020/07/cropped-logo.png", "url" : "https://dooball66.com/","referer": "https://dooball66.com/", "embed": "true"},
+{ "name" : "Livescore thai", "info" : "", "image" : "https://livescorethai.net/assets/images/logo-new.png?v=4", "url" : "https://livescorethai.football/","referer": "https://livescorethai.football/", "embed": "true"},
+
+{ "name" : "Buaksib", "info" : "", "image" : "https://matchhighlighthot.weebly.com/uploads/5/2/0/8/52087309/259685_orig.jpg?250", "url" : "https://www.buaksib.com/football-highlights/","referer": "https://www.buaksib.com/", "embed": "true"},
+{ "name" : "Warpfootball", "info" : "", "image" : "https://www.warpfootball.games/wp-content/uploads/Logo-warp-game-01-e1580715356367.png", "url" : "https://www.warpfootball.games/%e0%b8%94%e0%b8%b9%e0%b8%97%e0%b8%b5%e0%b8%a7%e0%b8%b5%e0%b8%ad%e0%b8%ad%e0%b8%99%e0%b9%84%e0%b8%a5%e0%b8%99%e0%b9%8c/","referer": "https://www.warpfootball.games/", "embed": "true"},
+{ "name" : "trueid.net", "info" : "", "image" : "https://cms.dmpcdn.com/livetv/2021/10/28/3965c0a0-3794-11ec-8e1f-6bce3683de8c_webp_320.png", "url" : "https://tv.trueid.net/live","referer": "https://tv.trueid.net/live", "embed": "true"},
+{ "name" : "aisplay", "info" : "", "image" : "", "url" : "https://aisplay.ais.co.th/portal/screen/freelivetvweb/","referer": "https://aisplay.ais.co.th", "embed": "true"},
+
+
+]},
+
+{"name"   : "Movie&series online","info"   : "https://drive.google.com/uc?id=1a_boVjq0T10SwjrBXi_18pQ-J6bqqWvH","image"  : "https://drive.google.com/uc?id=1MKQJThU9cuYaINjed78fRDS5y4ZljWyo","stations" : [
+
+
+{"name" : " 123-HD",  "info" : "", "image" : "https://www.i-pic.info/i/Iijo620089.png", "url" : "https://www.123-hd.com/","referer":"","embed": "true" },
+{"name" : " moviehdfree",  "info" : "", "image" : "https://www.moviehdfree.net/wp-content/uploads/2023/04/logomoviehdfree.png?x74946", "url" : "https://www.moviehdfree.net/","referer":"","embed": "true" },
+{"name" : " ดูซีรี่ย์.com",  "info" : "", "image" : "https://img2.pic.in.th/pic/20231128_083930.png", "url" : "https://www.xn--c3cr7bd3gby8job.com/","referer":"","embed": "true" },
+{"name" : " 1112hd.com",  "info" : "", "image" : "https://1112hd.com/wp-content/uploads/2022/07/Untitled-2.jpg", "url" : "https://1112hd.com/","referer":"","embed": "true" },
+{"name" : " wow-series",  "info" : "", "image" : "https://wow-series.com/wp-content/uploads/2023/02/Logo_wow-sereis.png", "url" : "https://wow-series.com/","referer":"","embed": "true" },
+{ "name" : "Nungkai", "info" : "", "image" : "https://sv1.picz.in.th/images/2023/02/15/LuLQ0Z.jpg", "url" : "https://nungkai-hd.com/football.php?fbclid=IwAR3pfud4XN3IAR87vZD2AB0dmTWiRKJTe9bLmWBIVeIM6Lzod-BGWbFtT2s","referer": "https://nungkai-hd.com/", "embed": "true"},
+
+
+]}, ]},
+
+
+
+
+{ "name" : "18+ ", "info" : "เป็นรายการที่เหมาะสำหรับผู้ชมที่มีอายุ 18 ปีขึ้นไป","author" : "18+ (เป็นรายการที่เหมาะสำหรับผู้ชมที่มีอายุ 18 ปีขึ้นไป)", "image" : "https://www.i-pic.info/i/Z2Th614724.jpg", "groups": [
+
+{ "name" : "18+ เป็นรายการที่เหมาะสำหรับผู้ชมที่มีอายุ 18 ปีขึ้นไป ", "info" : "เป็นรายการที่เหมาะสำหรับผู้ชมที่มีอายุ 18 ปีขึ้นไป","author" : "18+ (เป็นรายการที่เหมาะสำหรับผู้ชมที่มีอายุ 18 ปีขึ้นไป)", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "groups": [
+
+{ "name" : "TV-18","author": "", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "groups" : [
+{ "name" : "TV-18_sv01", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "url" : "https://www.dropbox.com/scl/fi/bcfeq5h2adb3e7os8v5m5/TV-18sv01.txt?rlkey=gg8u68us7zt5xthfwksr1apwa&dl=1", "import": "false"},
+{ "name" : "TV-18_sv02", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "url" : "https://www.dropbox.com/scl/fi/buyjd7thden1pfwwdi5jc/TV-18sv02.txt?rlkey=s87272mn6savt6lrpswj22lkb&dl=1", "import": "false"},
+{ "name" : "TV-18_sv03", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "url" : "https://www.dropbox.com/scl/fi/3bb1kd8n52jdi62r3cq4n/TV-18sv03.txt?rlkey=l1swxlbrs30rim370udkmh49d&dl=1", "import": "false"},
+{ "name" : "TV-18_sv04", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "url" : "https://www.dropbox.com/scl/fi/eczoh35gfehzzl1osckrb/TV-18sv04.txt?rlkey=6mqvd3cpmmsslny2yx34nyslt&dl=1", "import": "false"},
+{ "name" : "TV-18_sv05", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "url" : "https://www.dropbox.com/scl/fi/a273v8aag2cn395z1rlkq/TV-18sv05.txt?rlkey=wmi7v2en3ucgs1bzn1kjno283&dl=1", "import": "false"}, ]},
+
+
+{ "name" : "18+","author": "", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "groups" : [
+{ "name" : "Server01 new", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "url" : "https://www.dropbox.com/scl/fi/q8u99jcdwz390f2mbg1il/06.01.01-18-s01.txt?rlkey=rr3q20ssws4bbglvmtm759eci&dl=1", "import": "false"},
+{ "name" : "Server02 all", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "url" : "https://www.dropbox.com/scl/fi/mtegjfyqx6sp7bro5tocx/06.01.02-18-s02.txt?rlkey=w43zpuna6klt69ll89as3bndy&dl=1", "import": "false"},
+{ "name" : "Server03 uncen", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "url" : "https://www.dropbox.com/scl/fi/lgmlaxf7ya1p74u8vv8pz/06.01.03-18-s03.txt?rlkey=f7axiac9750pvv6nelpfwomz4&dl=1", "import": "false"},
+{ "name" : "Server04 co", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "url" : "https://www.dropbox.com/scl/fi/bu3rj33uyurks0afth4uo/06.01.04-18-s04.txt?rlkey=63ird6k3v9zn8ahpqe93wp9gf&dl=1", "import": "false"},
+{ "name" : "Server05", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "url" : "https://www.dropbox.com/scl/fi/w02raf6ti7wzcrtnrjzio/06.01.05-18-s05.txt?rlkey=ywq0f49i48gtpfnmerhoqrybd&dl=1", "import": "false"}, ]},
+
+
+{ "name" : "18+ by sharkwow", "info" : "", "image" : "https://i.imgur.com/BnZ2Lox.png", "url" : "http://sodaza.link/playlist/sharkwow.php?cr=sharkwow", "import": "false"},
+{ "name" : "Only Fin", "info" : "", "image" : "https://c.tenor.com/3yzxegaaj6cAAAAM/subscribe-to-my-onlyfans.gif", "url" : "http://tiny.cc/only_fin", "import": "false"},
+{ "name" : "📺 JAV", "info" : "", "image" : "https://f.ptcdn.info/241/053/000/ov6xpm5gy7kzSWgu09e-o.gif", "url" : "https://drive.google.com/uc?export=download&id=1NHd3Sqv5mc41chASgLsKegvZXpksouRF", "import": "false"},
+{ "name" : "อุ๋ง อุ๋ง ปันสุข", "info" : "", "image" : "https://lh3.googleusercontent.com/-Xy3JbqRLA6g/ZOTpGaGiaAI/AAAAAAAAAI4/9j63PXk6OAop1iX2nRswG-cqfff5T1WRgCNcBGAsYHQ/h120/images.png", "url" : "https://raw.githubusercontent.com/Infinity-000/AV-Subthai/master/all.w3u", "import": "false"},
+{ "name" : "Adults", "info" : "", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "url" : "http://topplay.do.am/AdultsTopPlay.m3u", "import": "false"},
+{ "name" : "ไม่เปลืองไฟ แต่เปลืองน้ำ", "info" : "", "image" : "https://inwfile.com/s-cc/wo7bre.gif", "url" : "https://www.dropbox.com/s/5gypor4c6ua225a/code1234.w3u?dl=1", "import": "false"},
+
+
+
+
+
+{ "name" : "Web online ", "info" : "เป็นรายการที่เหมาะสำหรับผู้ชมที่มีอายุ 18 ปีขึ้นไป","author" : "18+ (เป็นรายการที่เหมาะสำหรับผู้ชมที่มีอายุ 18 ปีขึ้นไป)", "image" : "https://www.i-pic.info/i/2HD8614723.jpg", "stations" : [
+
+{ "name" : "megaav.fun", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://megaav.fun/","referer": "", "embed": "true"},
+{ "name" : "moviexx69.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://moviexx69.com/","referer": "", "embed": "true"},
+{ "name" : "moviexx69.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://moviexx69.com/","referer": "", "embed": "true"},
+{ "name" : "av-th.me", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://av-th.me/","referer": "", "embed": "true"},
+{ "name" : "doujinstar.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://doujinstar.com/","referer": "", "embed": "true"},
+{ "name" : "av24flix.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://av24flix.com","referer": "", "embed": "true"},
+{ "name" : "porn-d.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://porn-d.com/","referer": "", "embed": "true"},
+{ "name" : "porndoo4k.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://porndoo4k.com/","referer": "", "embed": "true"},
+{ "name" : "porndufree4k.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://porndufree4k.com/","referer": "", "embed": "true"},
+{ "name" : "pornthaihub.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://pornthaihub.com/","referer": "", "embed": "true"},
+{ "name" : "avpornthai.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://avpornthai.com/","referer": "", "embed": "true"},
+{ "name" : "moviexx69.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://moviexx69.com/","referer": "", "embed": "true"},
+{ "name" : "www.av-th.net", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://www.av-th.net/","referer": "", "embed": "true"},
+{ "name" : "hee3d.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://hee3d.com/","referer": "", "embed": "true"},
+{ "name" : "av-subthai.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://av-subthai.com/","referer": "", "embed": "true"},
+{ "name" : "avdeemak.com", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://avdeemak.com/","referer": "", "embed": "true"},
+{ "name" : "avsubthai.io", "info" : "", "image" : "https://icons.iconarchive.com/icons/gartoon-team/gartoon-misc/256/Stock-Music-Library-icon.png", "url" : "https://avsubthai.io","referer": "", "embed": "true"},
+
+]},
+
+]}, ]},
+
+
+
+]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
