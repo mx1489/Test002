@@ -1,0 +1,119 @@
+{
+"name"   : "DeVilzz.TV+",
+"author" : "Devilzz V.2025",
+"image"  : "https://www.i-pic.info/i/5M1U967239.jpg",
+"url"    : "#https://bit.ly/mdv2p#",
+"info"   : "Online",
+"groups" : [
+
+{"name"   : "สนับสนุน (Support) ","image"  : "https://www.i-pic.info/i/5M1U967239.jpg", "stations" : [
+
+{ "name" : "ธนาคารออมสิน เลขที่บัญชี 020 29501 2486", "info" : " ร่วมทำบุญสร้างพระทุกๆโครงการ บูชาวัตถุมงคลของวัดถ้ำเมืองนะ ร่วมทำบุญได้ที่ บัญชี พระวรงคต  (หลวงตาม้า) ธนาคารออมสิน เลขที่บัญชี 020 29501 2486 อนุโมทนาสาธุค่ะ 🙏🙏🙏", "image" : "https://www.i-pic.info/i/Z9h4627514.jpg", "url" : "https://xcefjg98vbb8nsqrd6ojfq.on.drv.tw/Drive01-all/web/support.html","embed": "true"},
+
+
+]},
+
+{ "name" : "ทีวีออนไลน์", "info" : "", "image" : "https://drive.google.com/uc?id=1P-Ol7IjhTfZc8Pe_3EhVSAuFF6gslSox", "url" : "https://www.dropbox.com/scl/fi/pbd965cxbs9jubt32drw2/01.01-TV.w3.txt?rlkey=x57fepro8z2zm9tfmex11gfu4&dl=1", "import": "false"},
+
+
+
+#-------------------
+
+
+{ "name" : "ดูหนัง ออนไลน์","author": "Movie online", "info" : "", "image" : "https://drive.google.com/uc?id=1P2a5I7RdrZDo_GDJ76hg5irqAhZy0gvA", "groups" : [
+
+{ "name" : "หนังใหม่ ","author": "", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "groups" : [
+{ "name" : "หนังใหม่ 2024","author": "", "info" : "", "image" : "https://www.i-pic.info/i/zE4d632356.jpg", "groups" : [
+{ "name" : "2024_S00", "info" : "", "image" : "https://www.i-pic.info/i/zE4d632356.jpg", "url" : "https://pastebin.com/raw/jMdsTw84", "import": "false"},
+{ "name" : "2024_S01", "info" : "", "image" : "https://www.i-pic.info/i/zE4d632356.jpg", "url" : "https://drive.google.com/uc?id=17QA_8LAnbsAL3ZHWkscoqOuoJW1lMb3T", "import": "false"},
+{ "name" : "2024_S02", "info" : "", "image" : "https://www.i-pic.info/i/zE4d632356.jpg", "url" : "https://www.dropbox.com/scl/fi/ntt6xdq68621ojw75t7k3/Movie-2024.w3.txt?rlkey=wgw54e5wkj9z7h5ymifbhbupf&dl=1", "import": "false"},
+{ "name" : "2024_S03", "info" : "", "image" : "https://www.i-pic.info/i/zE4d632356.jpg", "url" : "https://www.dropbox.com/scl/fi/gv3pejdvp2s8d4usi8l25/mv-2024-2.txt?rlkey=61jzmhg8i2igdghrrwlhxm85s&dl=1", "import": "false"},]},
+
+{ "name" : "หนังใหม่ 2023","author": "", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "groups" : [
+{ "name" : "2023-SV01", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "url" : "https://dl.dropbox.com/s/bx7k1z4a6wqdtla/new.txt?dl=1", "import": "false"},
+{ "name" : "2023-SV02", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "url" : "https://www.dropbox.com/scl/fi/v0e0fdp85hfrfx1plosa0/02.01.01.mv-2023.w3.txt?rlkey=7lvgr7fdht8t4c3srzc8ruamv&dl=1", "import": "false"},
+{ "name" : "2023-SV03", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "url" : "https://www.dropbox.com/scl/fi/vjckq49ksqkua06pusweg/02.01.01.mv-2023-s2.w3.txt?rlkey=np4taamltpshu0rqn87pmv908&dl=1", "import": "false"},]},
+
+{ "name" : "2022", "info" : "", "image" : "https://www.i-pic.info/i/EyLz584607.png", "url" : "https://www.dropbox.com/scl/fi/sz9p8gz09dw0k3g0r7aaq/02.01.02.mv-2022.w3.txt?rlkey=uj7okevdb2rjo0sp35axzhx4b&dl=1", "import": "false"},
+{ "name" : "1970-2021", "info" : "", "image" : "https://www.i-pic.info/i/fRLn584620.png", "url" : "https://www.dropbox.com/scl/fi/n3p9n5gx54kjohe4h2uu6/02.01.03.mv-all.w3.txt?rlkey=hu8nqlrgvfs3kat5kg9cn5sw7&dl=1", "import": "false"},]},
+
+{ "name" : "หนังไทย", "info" : "", "image" : "https://drive.google.com/uc?id=1b4oLZjxauT8DUoTp827sxMJR23Uis27y", "url" : "https://www.dropbox.com/scl/fi/qd2dtuef6lzst4mq9mrsj/02.02.01.mv-TH.w3.txt?rlkey=yxa8hx9i8pt42ckyij522n15w&dl=1", "import": "false"},
+{ "name" : "หนังเกาหลี", "info" : "", "image" : "https://drive.google.com/uc?id=1b0AYQwff4xAgAmbdPmVNJAGJZTAvCHqg", "url" : "https://www.dropbox.com/scl/fi/0lpsanrkyukgrcwno9dh3/02.01.05.txt?rlkey=15rbqgifsaitgqxpgb3sjs23l&dl=1", "import": "false"},
+{ "name" : "หนังจีน", "info" : "", "image" : "https://drive.google.com/uc?id=1b0AYQwff4xAgAmbdPmVNJAGJZTAvCHqg", "url" : "https://www.dropbox.com/scl/fi/ddjmddqv1b55eeio1jn3u/02.01.06.txt?rlkey=rbvial3tok4u87wysapvqbq56&dl=1", "import": "false"},
+{ "name" : "หนังญี่ปุ่น", "info" : "", "image" : "https://drive.google.com/uc?id=1b0AYQwff4xAgAmbdPmVNJAGJZTAvCHqg", "url" : "https://www.dropbox.com/scl/fi/s2110dw1cgysm5vkeirat/02.01.07.txt?rlkey=71uki7zorhd2mpe2h16kybt40&dl=1", "import": "false"},
+{ "name" : "หนังอินเดีย", "info" : "", "image" : "https://drive.google.com/uc?id=1b0AYQwff4xAgAmbdPmVNJAGJZTAvCHqg", "url" : "https://www.dropbox.com/scl/fi/m71xbft8acum8wz7di27q/02.01.08.txt?rlkey=mbv0kfr6a0itve1vv0y8syf99&dl=1", "import": "false"},
+{ "name" : "หนังฝรั่ง", "info" : "", "image" : "https://drive.google.com/uc?id=1bGZJK6WlLduIk255UStJVfr32kDGCcol", "url" : "https://www.dropbox.com/scl/fi/bq4xq8j2ihan5bw5jk05j/02.01.09.txt?rlkey=18xgu6jlruy2ptzn6vsnxvokr&dl=1", "import": "false"},
+{ "name" : "หนังเอเซีย", "info" : "", "image" : "https://drive.google.com/uc?id=1b0AYQwff4xAgAmbdPmVNJAGJZTAvCHqg", "url" : "https://www.dropbox.com/scl/fi/hi3jem833rdnq9khncy7w/02.02.05.mv-as.w3.txt?rlkey=2f4qzyivx8bw70bfejnqnj5mw&dl=1", "import": "false"},
+
+{ "name" : "หนังอื่นๆ", "info" : "", "image" : "https://drive.google.com/uc?id=1axA2vXm0AixDYO0EnFm5TPXhIjCSrhrx", "url" : "https://www.dropbox.com/scl/fi/dprc1imacdfil1bd90xij/02.01.10.txt?rlkey=ogyg62fxbcd1urj0enfposvkc&dl=1", "import": "false"},
+{ "name" : "รวม Movie","author": "", "info" : "", "image" : "https://drive.google.com/uc?id=1axA2vXm0AixDYO0EnFm5TPXhIjCSrhrx", "groups" : [
+{ "name" : "Server01", "info" : "", "image" : "https://drive.google.com/uc?id=1axA2vXm0AixDYO0EnFm5TPXhIjCSrhrx", "url" : "https://www.dropbox.com/scl/fi/pavneh537r8e25tdv1f3z/mv-all-sv01.txt?rlkey=yewese4t6bfnq80wv7i1ccbd4&dl=1", "import": "false"},
+{ "name" : "Server02", "info" : "", "image" : "https://drive.google.com/uc?id=1axA2vXm0AixDYO0EnFm5TPXhIjCSrhrx", "url" : "https://www.dropbox.com/scl/fi/ylvixi2j29anw4kthpgff/mv-all-sv02.txt?rlkey=71bpbua8lhzwmq5eribqc43u2&dl=1", "import": "false"},
+{ "name" : "Server03", "info" : "", "image" : "https://drive.google.com/uc?id=1axA2vXm0AixDYO0EnFm5TPXhIjCSrhrx", "url" : "https://www.dropbox.com/scl/fi/bqk71h6syb66tipojz7h3/mv-all-sv03.txt?rlkey=0geylk25nf77v3texcr76419p&dl=1", "import": "false"},]},
+{ "name" : "Full HD", "info" : "", "image" : "https://www.i-pic.info/i/VOBm621536.jpg", "url" : "https://www.dropbox.com/scl/fi/4w5lvwinsik3fc0a0ui0q/mv-FullHD.txt?rlkey=rjz6httydcx39r87w5n5vixf0&dl=1", "import": "false"},
+{ "name" : "4k", "info" : "", "image" : "https://www.i-pic.info/i/mvpz627085.jpg", "url" : "https://www.dropbox.com/scl/fi/7k33h8osu8jyxg5todcsx/Mv-4k.txt?rlkey=dipcinu87x58u0ch9n4f6tplo&dl=1", "import": "false"},
+
+
+
+]},
+#-------------------------------end-movie-------------------------------------------------------------------------------
+
+
+{ "name" : "ดูซีรีย์ ออนไลน์","author": "", "info" : "", "image" : "https://drive.google.com/uc?id=1P7Zs7CAs06mqOh0ABfr_CZLiwz7p35m5", "groups" : [
+{ "name" : "ดูซีรีย์ ออนไลน์ New", "info" : "", "image" : "https://drive.google.com/uc?id=1P7Zs7CAs06mqOh0ABfr_CZLiwz7p35m5", "url" : "https://www.dropbox.com/scl/fi/ro71brv63qwt0tvx1cana/03.01.01-sr.w3?rlkey=4phn57sazmy1tfypie7f7vq3f&dl=1", "import": "false"},
+{ "name" : "ไทย", "info" : "", "image" : "https://www.i-pic.info/i/QHV8625210.jpg", "url" : "https://www.dropbox.com/scl/fi/niyf3ph2judlgjev6d7et/03.01.02-sr.w3?rlkey=dwmn27795lmd07assrz3jjd28&dl=1", "import": "false"},
+{ "name" : "ฝรั่ง", "info" : "", "image" : "https://www.i-pic.info/i/rkQ9620898.jpg", "url" : "https://www.dropbox.com/scl/fi/9e3vbuxlzlozuuqmbq3s1/03.01.03-sr.w3?rlkey=powfwgfu2aemn47xct0vy2zfr&dl=1", "import": "false"},
+{ "name" : "เกาหลี", "info" : "", "image" : "https://www.i-pic.info/i/hglX620895.jpg", "url" : "https://www.dropbox.com/scl/fi/7phopkgyy050p1uy3g4i2/03.01.04-sr.w3?rlkey=uibf97yn556mmfz0jlfkjvgnp&dl=1", "import": "false"},
+{ "name" : "จีน", "info" : "", "image" : "https://www.i-pic.info/i/bXPA620893.jpg", "url" : "https://www.dropbox.com/scl/fi/mjvxu5jf60dui3ij8a9mj/03.01.05-sr.w3?rlkey=5hbns7vr6sgxan5u2usine1py&dl=1", "import": "false"},
+{ "name" : "จีน 2", "info" : "", "image" : "https://www.i-pic.info/i/bXPA620893.jpg", "url" : "https://www.dropbox.com/scl/fi/we61emi7nsgspiwibp93i/03.05.02-sr-ch-02.w3?rlkey=85pvjakgy5zy72ljh2oecu0k4&dl=1", "import": "false"},
+
+{ "name" : "ญี่ปุ่น", "info" : "", "image" : "https://www.i-pic.info/i/hJvu585700.png", "url" : "https://www.dropbox.com/scl/fi/w3g5l7wb90rvmegjfzq7a/03.01.06-sr.w3?rlkey=ib1ek1tkbz302s73jj90gagn5&dl=1", "import": "false"},
+
+
+]},
+
+#-------------------caroon
+{ "name" : "การ์ตูน ออนไลน์", "info" : "", "image" : "https://drive.google.com/uc?id=1PBSMR7wGTjChegfhQWj9QW5fAev1EODz", "groups" : [
+ 
+{ "name" : "อนิเมชั่น", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "groups" : [
+{ "name" : "S01", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "url" : "https://www.dropbox.com/scl/fi/mh5bznmpog1hn3ndw4yt4/04.01.01-Animation.wsp?rlkey=4l3a07nhriby41w7gf8l0r262&dl=1", "import": "false"},
+{ "name" : "S02", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "url" : "https://www.dropbox.com/scl/fi/hwdqb86irg79397cynowt/04.01.02-Animation.wsp?rlkey=wf9llaz34w62b2ev94bn5gyiw&dl=1", "import": "false"},
+{ "name" : "S03", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "url" : "https://www.dropbox.com/scl/fi/9bw168rv7rmami6x9h3n2/04.01.03-Animation.wsp?rlkey=771nsha8sagsj6nosucbkiato&dl=1", "import": "false"},
+{ "name" : "S04", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "url" : "https://www.dropbox.com/scl/fi/sibaai9obvdgfb5y0je2s/04.01.04-Animation.wsp?rlkey=n8d1iy5j05huw5lwrocuk5ik5&dl=1", "import": "false"},]},
+
+{ "name" : "อะนิเมะ", "info" : "", "image" : "https://www.i-pic.info/i/ucVP627506.jpg", "groups" : [
+{ "name" : "S01", "info" : "", "image" : "https://www.i-pic.info/i/ucVP627506.jpg", "url" : "https://www.dropbox.com/scl/fi/4evpsrhaklss5e1b15gyo/04.02.01-Anime01.w3?rlkey=6k1y9pdgij0hfv60dsagoux8t&dl=1", "import": "false"},
+{ "name" : "S02", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://www.dropbox.com/scl/fi/is7hbbooglnsxqyve9mk8/04.02.02-Anime02.wsp?rlkey=w53m2sobne095z2918d5l0pcz&dl=1", "import": "false"},
+{ "name" : "S03", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://www.dropbox.com/scl/fi/wte4gj4n4pfweklhpq65z/04.02.03-Anime03.wsp?rlkey=qgc7wmtpwj7jqp3oeshoo4cm6&dl=1", "import": "false"},
+{ "name" : "S04", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://www.dropbox.com/scl/fi/843mu6lz1nviji23jrzmz/04.02.04-Anime04.wsp?rlkey=shl1r1034ie66mlbyal6tmgte&dl=1", "import": "false"},]},
+
+
+]},
+
+
+#-------------------radio
+
+
+{ "name" : "วิทยุ ออนไลน์", "info" : "", "image" : "https://www.i-pic.info/i/uMQo638803.png", "url" : "https://www.dropbox.com/scl/fi/zef2h65lpmnzyc7w5io6k/05.01-Radio.w3.txt?rlkey=oh9kgwu2q34kciknimq2byz4h&dl=1", "import": "false"},
+
+
+
+{ "name" : "Plus", "info" : "", "image" : "https://www.i-pic.info/i/5PQg584649.png", "url" : "https://bit.ly/dvvpipp", "import": "false"},
+########---------------------------------------------------------------------------------------18+..-----------------------------------------------------------------------###
+
+
+{ "name" : "อัปเดท 05-02-2025", "info" : "", "image" : "https://drive.google.com/uc?id=1URDx6a0-xWZ-vTKtkjPaVd4901lbtXll", "url" : "https://bit.ly/dvtv20p", "import": "false"},
+
+
+]}
+##----------------------END----------------------------
+
+{ "name" : "การ์ตูน ออนไลน์", "info" : "", "image" : "https://drive.google.com/uc?id=1PBSMR7wGTjChegfhQWj9QW5fAev1EODz", "url" : "https://www.dropbox.com/scl/fi/hcqhhkpnnqik3o62u762e/04.01-Cartoon.w3.txt?rlkey=6pa9ahd15l7hv2elah8q1ph68&dl=1", "import": "false"},
+
+
+
+
+
+
+
+},
