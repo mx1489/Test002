@@ -5,7 +5,7 @@
       "groups": [
 
     {
-      "name": "Chief Detective 1958 (2024)",
+      "name": "Test",
       "author": "12/05/2024",
       "image": "https://www.dooseries4k.com/wp-content/uploads/2024/04/Chief-Detective-1958-220x300-c-default.jpg",
       "stations": [
@@ -15,6 +15,14 @@
           "image": "https://www.dooseries4k.com/wp-content/uploads/2024/04/Chief-Detective-1958-220x300-c-default.jpg",
           "url": "https://www.sgcdnseriesn.xyz/view/2ab4cd31-a111-5380-ab85-4055e26a57e8.m3u8",
           "referer": "https://www.sgcdnseriesn.xyz/"
+        },
+
+  {
+          "name": "Episode1(Sub)",
+          "info": "Sub",
+          "image": "https://www.dooseries4k.com/wp-content/uploads/2024/04/Chief-Detective-1958-220x300-c-default.jpg",
+          "url": "https://github.com/mx1489/MV/blob/main/trueasianmore.m3u8",
+          "referer": "https://soccertv4k.com/"
         },
 
 ]},
