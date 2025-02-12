@@ -1,4 +1,4 @@
-{ "name" : "ดูหนัง ออนไลน์","author": "", "info" : "", "image" : "https://drive.google.com/uc?id=1P2a5I7RdrZDo_GDJ76hg5irqAhZy0gvA", "groups" : [
+{ "name" : "ดูหนัง ออนไลน์","author": "Movie New", "info" : "", "image" : "https://drive.google.com/uc?id=1P2a5I7RdrZDo_GDJ76hg5irqAhZy0gvA", "groups" : [
 { "name" : "หนังใหม่","author": "", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "groups" : [
 { "name" : "หนังใหม่ 01", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "https://drive.google.com/uc?id=17QA_8LAnbsAL3ZHWkscoqOuoJW1lMb3T", "import": "false"}, 
 { "name" : "หนังใหม่ 02", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "https://drive.google.com/uc?id=1IX5H-mGZXxUqjTSLLKijsTMsMbZOKqBg", "import": "false"}, 
