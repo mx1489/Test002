@@ -125,6 +125,7 @@
 ]},
 
 
+
 { "name" : "ช่องบันเทิง", "info" : "", "image" : "https://www.i-pic.info/i/Qmj3581824.gif", "groups" : [
 
 {"name": "ฟาร์มทีวี HD",  "info": "",  "image": "https://img.inwiptv.net/postor/20211007195247ฟาร์มทีวี HD.jpg", "stations" : [  {"name": "Player 01",  "info": "",  "image": "https://img.inwiptv.net/postor/20211007195247ฟาร์มทีวี HD.jpg",  "url": "https://www.inwiptv.com/player_demo.php?channel=89429","referer":"","online": "true",  "desktop": "true"},]},
