@@ -126,6 +126,12 @@
 
 
 { "name" : "ช่องบันเทิง", "info" : "", "image" : "https://www.i-pic.info/i/Qmj3581824.gif", "groups" : [
+
+{"name": "ฟาร์มทีวี HD",  "info": "",  "image": "https://img.inwiptv.net/postor/20211007195247ฟาร์มทีวี HD.jpg", "stations" : [  {"name": "Player 01",  "info": "",  "image": "https://img.inwiptv.net/postor/20211007195247ฟาร์มทีวี HD.jpg",  "url": "https://www.inwiptv.com/player_demo.php?channel=89429","referer":"","online": "true",  "desktop": "true"},]},
+{"name": "ถิ่นใต้",  "info": "",  "image": "https://img.inwiptv.net/postor/20200208001241ถิ่นใต้.jpg", "stations" : [  {"name": "Player 01",  "info": "",  "image": "https://img.inwiptv.net/postor/20200208001241ถิ่นใต้.jpg",  "url": "https://www.inwiptv.com/player_demo.php?channel=61235","referer":"","online": "true",  "desktop": "true"},]},
+{"name": "แสงจันทร์",  "info": "",  "image": "https://img.inwiptv.net/postor/20210504230700แสงจันทร์.jpg", "stations" : [  {"name": "Player 01",  "info": "",  "image": "https://img.inwiptv.net/postor/20210504230700แสงจันทร์.jpg",  "url": "https://www.inwiptv.com/player_demo.php?channel=60254","referer":"","online": "true",  "desktop": "true"},]},
+
+
 {"name": "Rama Channel", "info": "Player1", "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/RamaChannel.png",  "stations" : [ {"name": "Rama Channel", "info": "Player1", "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/RamaChannel.png", "url": "https://49-231-37-37-rewriter.ais-vidnt.com/ais/play/origin/live/eds/V0096/HLS/V0096.m3u8","referer":"https://web-player.ais-vidnt.com/", "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36","playInNatPlayer": "false"},
 {"name": "Rama Channel", "info": "Player2", "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/RamaChannel.png", "url": "https://58-64-60-73-rewriter.ais-vidnt.com/ais/play/origin/live/eds/V0096/HLS/V0096.m3u8","referer":"https://web-player.ais-vidnt.com/", "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36","playInNatPlayer": "false"},
 {"name": "Rama Channel", "info": "Player3", "image": "https://ais-s.ais-vidnt.com/ais/play/origin/LIVE/channelicon/RamaChannel.png", "url": "https://aisplay.ais.co.th/portal/live?vid=59a999e8aae7311c60cf2030","referer":"", "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36","playInNatPlayer": "false"},
