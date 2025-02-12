@@ -1,10 +1,10 @@
 { "name" : "ดูหนัง ออนไลน์","author": "", "info" : "", "image" : "https://drive.google.com/uc?id=1P2a5I7RdrZDo_GDJ76hg5irqAhZy0gvA", "groups" : [
 { "name" : "หนังใหม่","author": "", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "groups" : [
-{ "name" : "หนังใหม่ 01", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "url" : "https://drive.google.com/uc?id=17QA_8LAnbsAL3ZHWkscoqOuoJW1lMb3T", "import": "false"}, 
-{ "name" : "หนังใหม่ 02", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "url" : "https://drive.google.com/uc?id=1IX5H-mGZXxUqjTSLLKijsTMsMbZOKqBg", "import": "false"}, 
-{ "name" : "หนังใหม่ 03", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "url" : "https://drive.google.com/uc?id=1vQ4pa_zZ-uPavG4Zricn6TX7L4riplIE", "import": "false"}, 
-{ "name" : "หนังใหม่ 04", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "url" : "", "import": "false"}, 
-{ "name" : "หนังใหม่ 05", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "url" : "", "import": "false"}, ]},
+{ "name" : "หนังใหม่ 01", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "https://drive.google.com/uc?id=17QA_8LAnbsAL3ZHWkscoqOuoJW1lMb3T", "import": "false"}, 
+{ "name" : "หนังใหม่ 02", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "https://drive.google.com/uc?id=1IX5H-mGZXxUqjTSLLKijsTMsMbZOKqBg", "import": "false"}, 
+{ "name" : "หนังใหม่ 03", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "https://drive.google.com/uc?id=1vQ4pa_zZ-uPavG4Zricn6TX7L4riplIE", "import": "false"}, 
+{ "name" : "หนังใหม่ 04", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "", "import": "false"}, 
+{ "name" : "หนังใหม่ 05", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "", "import": "false"}, ]},
 { "name" : "หนังใหม่ 2024","author": "", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "groups" : [
 { "name" : "2024 s01", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "url" : "https://drive.google.com/uc?id=17QA_8LAnbsAL3ZHWkscoqOuoJW1lMb3T", "import": "false"}, 
 { "name" : "2024 s02", "info" : "", "image" : "https://www.i-pic.info/i/LjwK584611.png", "url" : "https://drive.google.com/uc?id=17QA_8LAnbsAL3ZHWkscoqOuoJW1lMb3T", "import": "false"}, ]},
