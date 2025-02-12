@@ -40,19 +40,34 @@
 ]},
 
 #-------------------caroon
-{ "name" : "การ์ตูน ออนไลน์", "info" : "", "image" : "https://drive.google.com/uc?id=1PBSMR7wGTjChegfhQWj9QW5fAev1EODz", "groups" : [
- 
-{ "name" : "อนิเมชั่น", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "groups" : [
-{ "name" : "S01", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "url" : "https://www.dropbox.com/scl/fi/mh5bznmpog1hn3ndw4yt4/04.01.01-Animation.wsp?rlkey=4l3a07nhriby41w7gf8l0r262&dl=1", "import": "false"},
-{ "name" : "S02", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "url" : "https://www.dropbox.com/scl/fi/hwdqb86irg79397cynowt/04.01.02-Animation.wsp?rlkey=wf9llaz34w62b2ev94bn5gyiw&dl=1", "import": "false"},
-{ "name" : "S03", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "url" : "https://www.dropbox.com/scl/fi/9bw168rv7rmami6x9h3n2/04.01.03-Animation.wsp?rlkey=771nsha8sagsj6nosucbkiato&dl=1", "import": "false"},
-{ "name" : "S04", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "url" : "https://www.dropbox.com/scl/fi/sibaai9obvdgfb5y0je2s/04.01.04-Animation.wsp?rlkey=n8d1iy5j05huw5lwrocuk5ik5&dl=1", "import": "false"},]},
+{ "name" : "การ์ตูน ออนไลน์","author": "", "info" : "", "image" : "https://drive.google.com/uc?id=1PBSMR7wGTjChegfhQWj9QW5fAev1EODz", "groups" : [
+{ "name" : "อนิเมชั่น","author": "", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "groups" : [
+{ "name" : "S01", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "url" : "", "import": "false"}, 
+{ "name" : "S02", "info" : "", "image" : "https://www.i-pic.info/i/GltK583092.png", "url" : "https://drive.google.com/uc?id=1D3NJLLErYwla8OiUD9Uvp7bXwhAQ05by", "import": "false"}, 
 
-{ "name" : "อะนิเมะ", "info" : "", "image" : "https://www.i-pic.info/i/ucVP627506.jpg", "groups" : [
-{ "name" : "S01", "info" : "", "image" : "https://www.i-pic.info/i/ucVP627506.jpg", "url" : "https://www.dropbox.com/scl/fi/4evpsrhaklss5e1b15gyo/04.02.01-Anime01.w3?rlkey=6k1y9pdgij0hfv60dsagoux8t&dl=1", "import": "false"},
-{ "name" : "S02", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://www.dropbox.com/scl/fi/is7hbbooglnsxqyve9mk8/04.02.02-Anime02.wsp?rlkey=w53m2sobne095z2918d5l0pcz&dl=1", "import": "false"},
-{ "name" : "S03", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://www.dropbox.com/scl/fi/wte4gj4n4pfweklhpq65z/04.02.03-Anime03.wsp?rlkey=qgc7wmtpwj7jqp3oeshoo4cm6&dl=1", "import": "false"},
-{ "name" : "S04", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://www.dropbox.com/scl/fi/843mu6lz1nviji23jrzmz/04.02.04-Anime04.wsp?rlkey=shl1r1034ie66mlbyal6tmgte&dl=1", "import": "false"},]},
+
+
+
+
+
+
+]},
+{ "name" : "อะนิเมะ","author": "", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "groups" : [
+{ "name" : "อะนิเมะ", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://drive.google.com/uc?id=1PKctv933ayw51zFOweIhUZv6D_Qp7ZO-", "import": "false"}, 
+{ "name" : "S01 ", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://drive.google.com/uc?id=1Ehlqspcrg_ooE4eOIi6CcVe-yRFh3PmX", "import": "false"}, 
+{ "name" : "S02 พากย์ไทย", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://drive.google.com/uc?id=1CwHkgPDfZCPEZjnfaLTeGKmC0GIJcQ4b", "import": "false"}, 
+{ "name" : "S03 พากย์ไทย", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://drive.google.com/uc?id=14DBZ6hiBbIyxmdeV_VEcNLjN9g9louFT", "import": "false"}, 
+{ "name" : "S04", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://drive.google.com/uc?id=1BGz2iQOYso8126EBv534PYFDdjE-yqi9", "import": "false"}, 
+{ "name" : "S05", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://drive.google.com/uc?id=1BGz2iQOYso8126EBv534PYFDdjE-yqi9", "import": "false"}, 
+{ "name" : "S06 จีน", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://drive.google.com/uc?id=1CpczCQvjoZ2YiuL7fJ0Xg3XuBsAFasRt", "import": "false"}, 
+{ "name" : "S07movie", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://drive.google.com/uc?id=13GtlR5ms01ZS6NTp1bV_MuhLRS7FE8j6", "import": "false"}, 
+{ "name" : "S08 จีน", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "https://drive.google.com/uc?id=1WfqUjE8VPQDMaEWV7ljoNQFpcO5SIKq_", "import": "false"}, 
+{ "name" : "S09", "info" : "", "image" : "https://www.i-pic.info/i/LKjY583126.png", "url" : "", "import": "false"}, ]},
+
+{ "name" : "เวป ออนไลน์","author": "", "info" : "", "image" : "", "groups" : [
+{ "name" : "Anime HD Zero", "info" : "", "image" : "https://img.shirokami.me/images/2024/06/01/c2ed894641bef0f2c0d8178dc42a9a83.webp", "url" : "https://drive.google.com/uc?id=1D-YsBHsO2uyc-HXpj3PN_6Ccf6svjC_B", "import": "false"}, 
+{ "name" : "Anime-Indy", "info" : "", "image" : "https://i0.wp.com/anime-indy.com/wp-content/uploads/2022/09/Anime-Indy.com-logo-e1663413747730.png", "url" : "https://drive.google.com/uc?id=13RFqRGSOZBSTOwq-YvFeE9818hnuY0he", "import": "false"}, 
+{ "name" : "Anime Moji", "info" : "", "image" : "https://i0.wp.com/animemoji.net/wp-content/uploads/2022/04/moji-e1651359028221.png", "url" : "https://drive.google.com/uc?id=196x0N2t-khH8pxP8dmY24RwVizc_VB5w", "import": "false"}, ]},
 
 
 ]},
