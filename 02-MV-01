@@ -26,8 +26,9 @@
 
 
 { "name" : "หนังไทย", "info" : "", "image" : "https://www.i-pic.info/i/QHV8625210.jpg", "url" : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.02-MVth01.w3", "import": "false"}, 
-
-
+{ "name" : "หนังจีน", "info" : "", "image" : "https://www.i-pic.info/i/QHV8625210.jpg", "url" : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.02-MVch01.w3", "import": "false"}, 
+{ "name" : "หนังผรั่ง", "info" : "", "image" : "https://www.i-pic.info/i/QHV8625210.jpg", "url" : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.02-MVinter01.w3", "import": "false"}, 
+{ "name" : "หนังเกาหลี", "info" : "", "image" : "https://www.i-pic.info/i/QHV8625210.jpg", "url" : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.02-MVkr01.w3", "import": "false"}, 
 ]},
 
 
