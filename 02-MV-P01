@@ -34,6 +34,7 @@
 
 { "name" : "รวมหนัง","author": "", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "groups" : [
 { "name" : "หนัง 01", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.03.01.MV-All001", "import": "false"}, 
+{ "name" : "หนัง 01", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.03.01.MV-All002", "import": "false"}, 
 
 
 
