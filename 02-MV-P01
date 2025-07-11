@@ -5,7 +5,7 @@
 
 { "name" : "หนังใหม่","author": "", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "groups" : [
 { "name" : "หนังใหม่ 01", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02-MV-s01", "import": "false"}, 
-{ "name" : "หนังใหม่ 02", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "https://drive.google.com/uc?id=1IX5H-mGZXxUqjTSLLKijsTMsMbZOKqBg", "import": "false"}, 
+{ "name" : "หนังใหม่ 02", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.02.MV-s02", "import": "false"}, 
 { "name" : "หนังใหม่ 03", "info" : "", "image" : "https://www.i-pic.info/i/RrAq967254.jpg", "url" : "https://drive.google.com/uc?id=1vQ4pa_zZ-uPavG4Zricn6TX7L4riplIE", "import": "false"}, 
 
 { "name" : "หนังใหม่ 2024","author": "", "info" : "", "image" : "https://www.i-pic.info/i/uRFa972487.jpg", "groups" : [
