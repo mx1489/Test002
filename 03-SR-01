@@ -3,7 +3,7 @@
 { "name" : "ไทย", "info" : "", "image" : "https://www.i-pic.info/i/QHV8625210.jpg", "url" : "https://www.dropbox.com/scl/fi/niyf3ph2judlgjev6d7et/03.01.02-sr.w3?rlkey=dwmn27795lmd07assrz3jjd28&dl=1", "import": "false"},
 { "name" : "ฝรั่ง", "info" : "", "image" : "https://www.i-pic.info/i/rkQ9620898.jpg", "url" : "https://www.dropbox.com/scl/fi/9e3vbuxlzlozuuqmbq3s1/03.01.03-sr.w3?rlkey=powfwgfu2aemn47xct0vy2zfr&dl=1", "import": "false"},
 { "name" : "เกาหลี", "info" : "", "image" : "https://www.i-pic.info/i/hglX620895.jpg", "url" : "https://www.dropbox.com/scl/fi/7phopkgyy050p1uy3g4i2/03.01.04-sr.w3?rlkey=uibf97yn556mmfz0jlfkjvgnp&dl=1", "import": "false"},
-{ "name" : "จีน", "info" : "", "image" : "https://www.i-pic.info/i/bXPA620893.jpg", "url" : "https://www.dropbox.com/scl/fi/mjvxu5jf60dui3ij8a9mj/03.01.05-sr.w3?rlkey=5hbns7vr6sgxan5u2usine1py&dl=1", "import": "false"},
+{ "name" : "จีน", "info" : "", "image" : "https://www.i-pic.info/i/bXPA620893.jpg", "url" : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/03.01.02.SR-CH-01", "import": "false"},
 { "name" : "จีน 2", "info" : "", "image" : "https://www.i-pic.info/i/bXPA620893.jpg", "url" : "https://www.dropbox.com/scl/fi/we61emi7nsgspiwibp93i/03.05.02-sr-ch-02.w3?rlkey=85pvjakgy5zy72ljh2oecu0k4&dl=1", "import": "false"},
 
 { "name" : "ญี่ปุ่น", "info" : "", "image" : "https://www.i-pic.info/i/hJvu585700.png", "url" : "https://www.dropbox.com/scl/fi/w3g5l7wb90rvmegjfzq7a/03.01.06-sr.w3?rlkey=ib1ek1tkbz302s73jj90gagn5&dl=1", "import": "false"},
