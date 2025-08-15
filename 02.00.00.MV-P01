@@ -2,7 +2,7 @@
 "name"   : "ดูหนัง ออนไลน์",
 "author" : "",
 "image"  : "https://drive.google.com/uc?id=1P2a5I7RdrZDo_GDJ76hg5irqAhZy0gvA",
-"url"    : "#https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.00.00.MV-P01",
+"url"    : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.00.00.MV-P01",
 "info"   : "TV online",
 "groups" : [
 
@@ -10,86 +10,85 @@
 "name"  : "2025", "info" :  "", 
 "image" : "https://www.i-pic.info/i/LjwK584611.png", 
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.05.MV-2025", 
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "2024", "info" :  "", 
 "image" : "https://www.i-pic.info/i/EyLz584607.png",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.04.MV-2024",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "2023", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1axA2vXm0AixDYO0EnFm5TPXhIjCSrhrx",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.03.MV-2023",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "2022", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1b4oLZjxauT8DUoTp827sxMJR23Uis27y",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.02.MV-2022",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "2xxx", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1b0AYQwff4xAgAmbdPmVNJAGJZTAvCHqg",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.01.MV-2021",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "หนังไทย", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1b4oLZjxauT8DUoTp827sxMJR23Uis27y",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.02.01.MV-TH-01",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "หนังเกาหลี", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1b0AYQwff4xAgAmbdPmVNJAGJZTAvCHqg",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.02.02.MV-KR-01",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "หนังจีน", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1b0AYQwff4xAgAmbdPmVNJAGJZTAvCHqg",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.02.01.MV-TH-01",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "หนังญี่ปุ่น", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1b0AYQwff4xAgAmbdPmVNJAGJZTAvCHqg",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.02.04.MV-JP-01",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "หนังอินเดีย", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1b0AYQwff4xAgAmbdPmVNJAGJZTAvCHqg",
 "url"   : "https://github.com/mx1489/Test002/raw/refs/heads/main/02.02.05.MV-IN-01",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "หนังฝรั่ง", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1bGZJK6WlLduIk255UStJVfr32kDGCcol",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.02.06.MV-UR-01",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "เอเชีย", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1bGZJK6WlLduIk255UStJVfr32kDGCcol",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.02.07.MV-AS-01",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "หนังอื่นๆ", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1axA2vXm0AixDYO0EnFm5TPXhIjCSrhrx",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.03.01.MV-All001",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 {
 "name"  : "รวม Movie", "info" :  "", 
 "image" : "https://drive.google.com/uc?id=1axA2vXm0AixDYO0EnFm5TPXhIjCSrhrx",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.03.02.MV-All002",
-"playInNatPlayer": "true"
+"import" : "true"
 },
 
-]
-}
+]}
