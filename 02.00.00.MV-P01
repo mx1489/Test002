@@ -7,11 +7,18 @@
 "groups" : [
 
 {
-"name"  : "2025", "info" :  "", 
+"name"  : "2025 S01", "info" :  "", 
 "image" : "https://www.i-pic.info/i/LjwK584611.png", 
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.05.MV-2025", 
 "import" : "true"
 },
+{
+"name"  : "2025 S02", "info" :  "", 
+"image" : "https://www.i-pic.info/i/LjwK584611.png", 
+"url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.05.MV-2025.m3u", 
+"import" : "true"
+},
+
 {
 "name"  : "2024", "info" :  "", 
 "image" : "https://www.i-pic.info/i/EyLz584607.png",
