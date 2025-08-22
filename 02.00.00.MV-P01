@@ -8,26 +8,26 @@
 
 {
 "name"  : "2025 S01", "info" :  "", 
-"image" : "https://www.i-pic.info/i/LjwK584611.png", 
+"image" : "https://www.i-pic.info/i/4XQC1126695.png", 
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.05.MV-2025", 
 "import" : "true"
 },
 {
 "name"  : "2025 S02", "info" :  "", 
-"image" : "https://www.i-pic.info/i/LjwK584611.png", 
+"image" : "https://www.i-pic.info/i/4XQC1126695.png", 
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.05.MV-2025.m3u", 
 "import" : "true"
 },
 
 {
 "name"  : "2024", "info" :  "", 
-"image" : "https://www.i-pic.info/i/EyLz584607.png",
+"image" : "https://www.i-pic.info/i/BrXi1130486.jpg",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.04.MV-2024",
 "import" : "true"
 },
 {
 "name"  : "2023", "info" :  "", 
-"image" : "https://drive.google.com/uc?id=1axA2vXm0AixDYO0EnFm5TPXhIjCSrhrx",
+"image" : "https://www.i-pic.info/i/2tnu584602.png",
 "url"   : "https://raw.githubusercontent.com/mx1489/Test002/refs/heads/main/02.01.03.MV-2023",
 "import" : "true"
 },
