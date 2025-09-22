@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบจัดเก็บเกียรติบัตรครู - โรงเรียนบ้านแม่กอนใน</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Sarabun', sans-serif; }
+        .certificate-card {
+            transition: all 0.3s ease;
+            border-left: 4px solid #059669;
+        }
+        .certificate-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .folder-icon {
+            background: linear-gradient(135deg, #4285f4, #34a853);
+        }
+        .loading-spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #059669;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .status-connected { color: #059669; }
+        .status-disconnected { color: #dc2626; }
+        .code-block {
+            background: #1f2937;
+            color: #f9fafb;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.875rem;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-green-50 to-emerald-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-7xl">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <div class="flex items-center justify-center mb-4">
+                <div class="bg-green-600 p-3 rounded-full mr-4">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-4xl font-bold text-gray-800">ระบบจัดเก็บเกียรติบัตรครู</h1>
+                    <p class="text-lg text-green-600 font-medium">โรงเรียนบ้านแม่กอนใน</p>
+                </div>
+            </div>
+            <p class="text-gray-600 text-lg">จัดการเกียรติบัตรครูด้วย Google Apps Script</p>
+        </div>
+
+        <!-- Setup Instructions -->
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-6 flex items-center">
+                <svg class="w-6 h-6 mr-2 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                วิธีการตั้งค่า Google Apps Script
+            </h2>
+            
+            <div class="space-y-6">
+                <div class="bg-blue-50 border-l-4 border-blue-400 p-4">
+                    <h3 class="font-semibold text-blue-800 mb-2">ขั้นตอนที่ 1: สร้าง Google Apps Script</h3>
+                    <ol class="list-decimal list-inside space-y-2 text-blue-700">
+                        <li>ไปที่ <a href="https://script.google.com" target="_blank" class="underline">script.google.com</a></li>
+                        <li>คลิก "โครงการใหม่" (New Project)</li>
+                        <li>ลบโค้ดเดิมและคัดลอกโค้ดด้านล่างไปวาง</li>
+                        <li>บันทึกโครงการและตั้งชื่อ เช่น "ระบบเกียรติบัตรครู"</li>
+                    </ol>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-3">โค้ด Google Apps Script:</h3>
+                    <div class="code-block">
+<pre>// ระบบจัดเก็บเกียรติบัตรครู - Google Apps Script
+// ID ของ Google Sheets และ Drive Folder
+const SHEETS_ID = '1SuvaEM1QkTGcEN9RhbooXAt7oycVa4d7zKXfdUXUaCw';
+const DRIVE_FOLDER_ID = '1EbpR9iFVRWqw5uwoOKj17tTxb09RFCtf';
+
+function doGet(e) {
+  const action = e.parameter.action;
+  
+  switch(action) {
+    case 'getTeachers':
+      return getTeachers();
+    case 'getCertificates':
+      return getCertificates();
+    case 'addCertificate':
+      return addCertificate(e.parameter);
+    default:
+      return ContentService.createTextOutput('Invalid action');
+  }
+}
+
+function doPost(e) {
+  const action = e.parameter.action;
+  
+  if (action === 'uploadFile') {
+    return uploadFile(e);
+  }
+  
+  return ContentService.createTextOutput('Invalid action');
+}
+
+// ดึงรายชื่อครูจาก Google Sheets
+function getTeachers() {
+  try {
+    const sheet = SpreadsheetApp.openById(SHEETS_ID).getSheetByName('user');
+    const range = sheet.getRange('B2:C'); // อ่านจากช่อง B2 เป็นต้นไป
+    const values = range.getValues();
+    
+    const teachers = values
+      .filter(row => row[0] && row[0].toString().trim() !== '')
+      .map(row => ({
+        name: row[0].toString().trim(),
+        position: row[1] ? row[1].toString().trim() : ''
+      }));
+    
+    return ContentService
+      .createTextOutput(JSON.stringify({success: true, data: teachers}))
+      .setMimeType(ContentService.MimeType.JSON);
+      
+  } catch (error) {
+    return ContentService
+      .createTextOutput(JSON.stringify({success: false, error: error.toString()}))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+}
+
+// ดึงข้อมูลเกียรติบัตรจาก Google Sheets
+function getCertificates() {
+  try {
+    const spreadsheet = SpreadsheetApp.openById(SHEETS_ID);
+    let sheet = spreadsheet.getSheetByName('certificates');
+    
+    // สร้างชีท certificates ถ้ายังไม่มี
+    if (!sheet) {
+      sheet = spreadsheet.insertSheet('certificates');
+      sheet.getRange('A1:I1').setValues([[
+        'ชื่อครู', 'ชื่อเกียรติบัตร', 'ประเภท', 'วันที่ได้รับ', 
+        'หน่วยงานที่มอบ', 'ระดับรางวัล', 'หมายเหตุ', 'ลิงก์ไฟล์', 'วันที่บันทึก'
+      ]]);
+    }
+    
+    const range = sheet.getDataRange();
+    const values = range.getValues();
+    
+    if (values.length <= 1) {
+      return ContentService
+        .createTextOutput(JSON.stringify({success: true, data: []}))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+    
+    const certificates = values.slice(1).map((row, index) => ({
+      id: index,
+      teacherName: row[0] || '',
+      certificateName: row[1] || '',
+      certificateType: row[2] || '',
+      certificateDate: row[3] || '',
+      issuedBy: row[4] || '',
+      awardLevel: row[5] || '',
+      certificateNotes: row[6] || '',
+      fileUrl: row[7] || '',
+      createdAt: row[8] || ''
+    }));
+    
+    return ContentService
+      .createTextOutput(JSON.stringify({success: true, data: certificates}))
+      .setMimeType(ContentService.MimeType.JSON);
+      
+  } catch (error) {
+    return ContentService
+      .createTextOutput(JSON.stringify({success: false, error: error.toString()}))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+}
+
+// เพิ่มเกียรติบัตรใหม่
+function addCertificate(params) {
+  try {
+    const spreadsheet = SpreadsheetApp.openById(SHEETS_ID);
+    let sheet = spreadsheet.getSheetByName('certificates');
+    
+    // สร้างชีท certificates ถ้ายังไม่มี
+    if (!sheet) {
+      sheet = spreadsheet.insertSheet('certificates');
+      sheet.getRange('A1:I1').setValues([[
+        'ชื่อครู', 'ชื่อเกียรติบัตร', 'ประเภท', 'วันที่ได้รับ', 
+        'หน่วยงานที่มอบ', 'ระดับรางวัล', 'หมายเหตุ', 'ลิงก์ไฟล์', 'วันที่บันทึก'
+      ]]);
+    }
+    
+    // สร้างโฟลเดอร์ครูถ้ายังไม่มี
+    const teacherFolderId = createTeacherFolder(params.teacherName);
+    
+    const newRow = [
+      params.teacherName || '',
+      params.certificateName || '',
+      params.certificateType || '',
+      params.certificateDate || '',
+      params.issuedBy || '',
+      params.awardLevel || '',
+      params.certificateNotes || '',
+      params.fileUrl || '',
+      new Date().toISOString()
+    ];
+    
+    sheet.appendRow(newRow);
+    
+    return ContentService
+      .createTextOutput(JSON.stringify({
+        success: true, 
+        message: 'บันทึกเกียรติบัตรเรียบร้อยแล้ว',
+        folderId: teacherFolderId
+      }))
+      .setMimeType(ContentService.MimeType.JSON);
+      
+  } catch (error) {
+    return ContentService
+      .createTextOutput(JSON.stringify({success: false, error: error.toString()}))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+}
+
+// สร้างโฟลเดอร์ครู
+function createTeacherFolder(teacherName) {
+  try {
+    const parentFolder = DriveApp.getFolderById(DRIVE_FOLDER_ID);
+    const existingFolders = parentFolder.getFoldersByName(teacherName);
+    
+    if (existingFolders.hasNext()) {
+      return existingFolders.next().getId();
+    }
+    
+    const newFolder = parentFolder.createFolder(teacherName);
+    return newFolder.getId();
+    
+  } catch (error) {
+    throw new Error('ไม่สามารถสร้างโฟลเดอร์ได้: ' + error.toString());
+  }
+}
+
+// อัปโหลดไฟล์
+function uploadFile(e) {
+  try {
+    const teacherName = e.parameter.teacherName;
+    const fileName = e.parameter.fileName;
+    const fileBlob = e.parameter.fileData;
+    
+    if (!teacherName || !fileName || !fileBlob) {
+      throw new Error('ข้อมูลไฟล์ไม่ครบถ้วน');
+    }
+    
+    const teacherFolderId = createTeacherFolder(teacherName);
+    const teacherFolder = DriveApp.getFolderById(teacherFolderId);
+    
+    const blob = Utilities.newBlob(
+      Utilities.base64Decode(fileBlob), 
+      'application/octet-stream', 
+      fileName
+    );
+    
+    const file = teacherFolder.createFile(blob);
+    const fileUrl = `https://drive.google.com/file/d/${file.getId()}/view`;
+    
+    return ContentService
+      .createTextOutput(JSON.stringify({
+        success: true, 
+        fileUrl: fileUrl,
+        fileId: file.getId()
+      }))
+      .setMimeType(ContentService.MimeType.JSON);
+      
+  } catch (error) {
+    return ContentService
+      .createTextOutput(JSON.stringify({success: false, error: error.toString()}))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+}</pre>
+                    </div>
+                </div>
+
+                <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+                    <h3 class="font-semibold text-yellow-800 mb-2">ขั้นตอนที่ 2: Deploy Web App</h3>
+                    <ol class="list-decimal list-inside space-y-2 text-yellow-700">
+                        <li>คลิก "Deploy" > "New deployment"</li>
+                        <li>เลือก Type: "Web app"</li>
+                        <li>Execute as: "Me"</li>
+                        <li>Who has access: "Anyone" (หรือตามที่ต้องการ)</li>
+                        <li>คลิก "Deploy" และคัดลอก Web App URL</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <!-- Configuration Panel -->
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-6 flex items-center">
+                <svg class="w-6 h-6 mr-2 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                การตั้งค่าระบบ
+            </h2>
+            
+            <div class="grid grid-cols-1 gap-6">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Google Apps Script Web App URL</label>
+                    <input type="text" id="scriptUrl" 
+                           class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
+                           placeholder="https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec">
+                    <p class="text-xs text-gray-500 mt-1">URL ที่ได้จากการ Deploy Web App</p>
+                </div>
+                
+                <div>
+                    <button id="testConnection" 
+                            class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 flex items-center">
+                        <div id="testSpinner" class="loading-spinner mr-2 hidden"></div>
+                        ทดสอบการเชื่อมต่อ
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Connection Status -->
+        <div id="statusPanel" class="bg-white rounded-xl shadow-lg p-6 mb-8 hidden">
+            <div class="flex items-center">
+                <div class="folder-icon p-3 rounded-full mr-4">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800">สถานะการเชื่อมต่อ</h3>
+                    <p id="connectionStatus" class="status-connected">เชื่อมต่อสำเร็จ</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Panel -->
+        <div id="mainPanel" class="hidden">
+            <!-- Teacher Selection -->
+            <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6 flex items-center">
+                    <svg class="w-6 h-6 mr-2 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                    </svg>
+                    เลือกครู
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">รายชื่อครู</label>
+                        <select id="teacherSelect" 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all">
+                            <option value="">กำลังโหลดรายชื่อครู...</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <button id="refreshTeachers" 
+                                class="bg-gray-500 hover:bg-gray-600 text-white font-medium py-3 px-6 rounded-lg transition-colors duration-200 mt-6">
+                            รีเฟรชรายชื่อ
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add Certificate Form -->
+            <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6 flex items-center">
+                    <svg class="w-6 h-6 mr-2 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                    </svg>
+                    เพิ่มเกียรติบัตรใหม่
+                </h2>
+                
+                <form id="certificateForm" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">ชื่อเกียรติบัตร/รางวัล</label>
+                        <input type="text" id="certificateName" required 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
+                               placeholder="เช่น ครูดีเด่น ปี 2567">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">ประเภทรางวัล</label>
+                        <select id="certificateType" required 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all">
+                            <option value="">เลือกประเภท</option>
+                            <option value="การสอน">การสอน</option>
+                            <option value="วิชาการ">วิชาการ</option>
+                            <option value="บริการ">บริการ</option>
+                            <option value="คุณธรรม">คุณธรรม</option>
+                            <option value="นวัตกรรม">นวัตกรรม</option>
+                            <option value="อื่นๆ">อื่นๆ</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">วันที่ได้รับ</label>
+                        <input type="date" id="certificateDate" required 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">หน่วยงานที่มอบ</label>
+                        <input type="text" id="issuedBy" required 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
+                               placeholder="เช่น สำนักงานเขตพื้นที่การศึกษา">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">ไฟล์เกียรติบัตร</label>
+                        <input type="file" id="certificateFile" accept=".pdf,.jpg,.jpeg,.png" 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all">
+                        <p class="text-xs text-gray-500 mt-1">รองรับไฟล์ PDF, JPG, PNG (ไม่เกิน 10MB)</p>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">ระดับรางวัล</label>
+                        <select id="awardLevel" 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all">
+                            <option value="">เลือกระดับ</option>
+                            <option value="โรงเรียน">โรงเรียน</option>
+                            <option value="เขตพื้นที่">เขตพื้นที่</option>
+                            <option value="จังหวัด">จังหวัด</option>
+                            <option value="ภาค">ภาค</option>
+                            <option value="ประเทศ">ประเทศ</option>
+                        </select>
+                    </div>
+                    
+                    <div class="md:col-span-2">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">หมายเหตุ</label>
+                        <textarea id="certificateNotes" rows="3" 
+                                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
+                                  placeholder="รายละเอียดเพิ่มเติม (ถ้ามี)"></textarea>
+                    </div>
+                    
+                    <div class="md:col-span-2">
+                        <button type="submit" 
+                                class="bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-8 rounded-lg transition-colors duration-200 flex items-center">
+                            <div id="submitSpinner" class="loading-spinner mr-2 hidden"></div>
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+                            </svg>
+                            บันทึกเกียรติบัตร
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Search and Filter -->
+            <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6 flex items-center">
+                    <svg class="w-6 h-6 mr-2 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                    ค้นหาและกรองข้อมูล
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div>
+                        <input type="text" id="searchInput" 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all"
+                               placeholder="ค้นหาชื่อครูหรือเกียรติบัตร">
+                    </div>
+                    
+                    <div>
+                        <select id="filterType" 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all">
+                            <option value="">ทุกประเภท</option>
+                            <option value="การสอน">การสอน</option>
+                            <option value="วิชาการ">วิชาการ</option>
+                            <option value="บริการ">บริการ</option>
+                            <option value="คุณธรรม">คุณธรรม</option>
+                            <option value="นวัตกรรม">นวัตกรรม</option>
+                            <option value="อื่นๆ">อื่นๆ</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <select id="filterLevel" 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all">
+                            <option value="">ทุกระดับ</option>
+                            <option value="โรงเรียน">โรงเรียน</option>
+                            <option value="เขตพื้นที่">เขตพื้นที่</option>
+                            <option value="จังหวัด">จังหวัด</option>
+                            <option value="ภาค">ภาค</option>
+                            <option value="ประเทศ">ประเทศ</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <button id="clearFilters" 
+                                class="w-full bg-gray-500 hover:bg-gray-600 text-white font-medium py-3 px-4 rounded-lg transition-colors duration-200">
+                            ล้างการค้นหา
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="text-3xl font-bold text-green-600" id="totalCertificates">0</div>
+                    <div class="text-gray-600 mt-2">เกียรติบัตรทั้งหมด</div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="text-3xl font-bold text-blue-600" id="totalTeachers">0</div>
+                    <div class="text-gray-600 mt-2">ครูที่ได้รับรางวัล</div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="text-3xl font-bold text-purple-600" id="thisYearCertificates">0</div>
+                    <div class="text-gray-600 mt-2">ปีนี้</div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                    <div class="text-3xl font-bold text-orange-600" id="mostActiveType">-</div>
+                    <div class="text-gray-600 mt-2">ประเภทยอดนิยม</div>
+                </div>
+            </div>
+
+            <!-- Certificates List -->
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6 flex items-center">
+                    <svg class="w-6 h-6 mr-2 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                    รายการเกียรติบัตร
+                </h2>
+                
+                <div id="certificatesList" class="space-y-4">
+                    <div class="text-center text-gray-500 py-8">
+                        <svg class="w-16 h-16 mx-auto mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                        <p class="text-lg">ยังไม่มีเกียรติบัตรในระบบ</p>
+                        <p class="text-sm">เริ่มต้นโดยการตั้งค่า Google Apps Script และเพิ่มเกียรติบัตรแรก</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class TeacherCertificateManager {
+            constructor() {
+                this.scriptUrl = '';
+                this.certificates = [];
+                this.teachers = [];
+                this.init();
+            }
+
+            init() {
+                this.loadConfig();
+                this.bindEvents();
+            }
+
+            bindEvents() {
+                document.getElementById('testConnection').addEventListener('click', () => {
+                    this.testConnection();
+                });
+
+                document.getElementById('certificateForm').addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    this.addCertificate();
+                });
+
+                document.getElementById('refreshTeachers').addEventListener('click', () => {
+                    this.loadTeachers();
+                });
+
+                document.getElementById('searchInput').addEventListener('input', () => {
+                    this.renderCertificates();
+                });
+
+                document.getElementById('filterType').addEventListener('change', () => {
+                    this.renderCertificates();
+                });
+
+                document.getElementById('filterLevel').addEventListener('change', () => {
+                    this.renderCertificates();
+                });
+
+                document.getElementById('clearFilters').addEventListener('click', () => {
+                    document.getElementById('searchInput').value = '';
+                    document.getElementById('filterType').value = '';
+                    document.getElementById('filterLevel').value = '';
+                    this.renderCertificates();
+                });
+            }
+
+            loadConfig() {
+                const saved = localStorage.getItem('scriptUrl');
+                if (saved) {
+                    document.getElementById('scriptUrl').value = saved;
+                    this.scriptUrl = saved;
+                }
+            }
+
+            async testConnection() {
+                const url = document.getElementById('scriptUrl').value.trim();
+                if (!url) {
+                    this.showMessage('กรุณาใส่ URL ของ Google Apps Script', 'error');
+                    return;
+                }
+
+                const spinner = document.getElementById('testSpinner');
+                spinner.classList.remove('hidden');
+
+                try {
+                    const response = await fetch(`${url}?action=getTeachers`);
+                    const result = await response.json();
+
+                    if (result.success) {
+                        this.scriptUrl = url;
+                        localStorage.setItem('scriptUrl', url);
+                        
+                        document.getElementById('statusPanel').classList.remove('hidden');
+                        document.getElementById('mainPanel').classList.remove('hidden');
+                        
+                        this.teachers = result.data;
+                        this.renderTeacherSelect();
+                        await this.loadCertificates();
+                        
+                        this.showMessage('เชื่อมต่อสำเร็จ!', 'success');
+                    } else {
+                        throw new Error(result.error || 'ไม่สามารถเชื่อมต่อได้');
+                    }
+                } catch (error) {
+                    this.showMessage('เกิดข้อผิดพลาด: ' + error.message, 'error');
+                } finally {
+                    spinner.classList.add('hidden');
+                }
+            }
+
+            async loadTeachers() {
+                if (!this.scriptUrl) return;
+
+                try {
+                    const response = await fetch(`${this.scriptUrl}?action=getTeachers`);
+                    const result = await response.json();
+
+                    if (result.success) {
+                        this.teachers = result.data;
+                        this.renderTeacherSelect();
+                        this.showMessage(`โหลดรายชื่อครู ${this.teachers.length} คน เรียบร้อยแล้ว`, 'success');
+                    } else {
+                        throw new Error(result.error);
+                    }
+                } catch (error) {
+                    this.showMessage('ไม่สามารถโหลดรายชื่อครูได้: ' + error.message, 'error');
+                }
+            }
+
+            renderTeacherSelect() {
+                const select = document.getElementById('teacherSelect');
+                select.innerHTML = '<option value="">เลือกครู</option>';
+                
+                this.teachers.forEach(teacher => {
+                    const option = document.createElement('option');
+                    option.value = teacher.name;
+                    option.textContent = `${teacher.name}${teacher.position ? ` (${teacher.position})` : ''}`;
+                    select.appendChild(option);
+                });
+            }
+
+            async addCertificate() {
+                const teacherName = document.getElementById('teacherSelect').value;
+                if (!teacherName) {
+                    this.showMessage('กรุณาเลือกครู', 'error');
+                    return;
+                }
+
+                const spinner = document.getElementById('submitSpinner');
+                spinner.classList.remove('hidden');
+
+                try {
+                    let fileUrl = '';
+                    const fileInput = document.getElementById('certificateFile');
+                    
+                    // อัปโหลดไฟล์ถ้ามี
+                    if (fileInput.files[0]) {
+                        fileUrl = await this.uploadFile(fileInput.files[0], teacherName);
+                    }
+
+                    // บันทึกข้อมูลเกียรติบัตร
+                    const params = new URLSearchParams({
+                        action: 'addCertificate',
+                        teacherName,
+                        certificateName: document.getElementById('certificateName').value,
+                        certificateType: document.getElementById('certificateType').value,
+                        certificateDate: document.getElementById('certificateDate').value,
+                        issuedBy: document.getElementById('issuedBy').value,
+                        awardLevel: document.getElementById('awardLevel').value,
+                        certificateNotes: document.getElementById('certificateNotes').value,
+                        fileUrl
+                    });
+
+                    const response = await fetch(`${this.scriptUrl}?${params}`);
+                    const result = await response.json();
+
+                    if (result.success) {
+                        await this.loadCertificates();
+                        this.clearForm();
+                        this.showMessage('บันทึกเกียรติบัตรเรียบร้อยแล้ว', 'success');
+                    } else {
+                        throw new Error(result.error);
+                    }
+
+                } catch (error) {
+                    this.showMessage('เกิดข้อผิดพลาด: ' + error.message, 'error');
+                } finally {
+                    spinner.classList.add('hidden');
+                }
+            }
+
+            async uploadFile(file, teacherName) {
+                return new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onload = async (e) => {
+                        try {
+                            const base64Data = e.target.result.split(',')[1];
+                            
+                            const formData = new FormData();
+                            formData.append('action', 'uploadFile');
+                            formData.append('teacherName', teacherName);
+                            formData.append('fileName', file.name);
+                            formData.append('fileData', base64Data);
+
+                            const response = await fetch(this.scriptUrl, {
+                                method: 'POST',
+                                body: formData
+                            });
+
+                            const result = await response.json();
+                            
+                            if (result.success) {
+                                resolve(result.fileUrl);
+                            } else {
+                                reject(new Error(result.error));
+                            }
+                        } catch (error) {
+                            reject(error);
+                        }
+                    };
+                    reader.readAsDataURL(file);
+                });
+            }
+
+            async loadCertificates() {
+                if (!this.scriptUrl) return;
+
+                try {
+                    const response = await fetch(`${this.scriptUrl}?action=getCertificates`);
+                    const result = await response.json();
+
+                    if (result.success) {
+                        this.certificates = result.data;
+                        this.renderCertificates();
+                        this.updateStatistics();
+                    } else {
+                        throw new Error(result.error);
+                    }
+                } catch (error) {
+                    this.showMessage('ไม่สามารถโหลดข้อมูลเกียรติบัตรได้: ' + error.message, 'error');
+                }
+            }
+
+            renderCertificates() {
+                const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+                const filterType = document.getElementById('filterType').value;
+                const filterLevel = document.getElementById('filterLevel').value;
+
+                let filteredCertificates = this.certificates.filter(cert => {
+                    const matchesSearch = cert.teacherName.toLowerCase().includes(searchTerm) ||
+                                        cert.certificateName.toLowerCase().includes(searchTerm);
+                    const matchesType = !filterType || cert.certificateType === filterType;
+                    const matchesLevel = !filterLevel || cert.awardLevel === filterLevel;
+                    return matchesSearch && matchesType && matchesLevel;
+                });
+
+                filteredCertificates.sort((a, b) => new Date(b.certificateDate) - new Date(a.certificateDate));
+
+                const container = document.getElementById('certificatesList');
+
+                if (filteredCertificates.length === 0) {
+                    container.innerHTML = `
+                        <div class="text-center text-gray-500 py-8">
+                            <svg class="w-16 h-16 mx-auto mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                            </svg>
+                            <p class="text-lg">ไม่พบเกียรติบัตรที่ตรงกับการค้นหา</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                container.innerHTML = filteredCertificates.map(cert => `
+                    <div class="certificate-card bg-gray-50 rounded-lg p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="flex-1">
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">${cert.teacherName}</h3>
+                                <div class="flex items-center text-sm text-gray-600 mb-2 flex-wrap gap-2">
+                                    <span class="bg-green-100 text-green-800 px-2 py-1 rounded-full">${cert.certificateType}</span>
+                                    ${cert.awardLevel ? `<span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full">${cert.awardLevel}</span>` : ''}
+                                </div>
+                            </div>
+                            ${cert.fileUrl ? `
+                            <a href="${cert.fileUrl}" target="_blank" rel="noopener noreferrer"
+                               class="text-green-600 hover:text-green-800 p-2 rounded-full hover:bg-green-50 transition-colors">
+                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                </svg>
+                            </a>
+                            ` : ''}
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                            <div>
+                                <span class="font-medium text-gray-700">เกียรติบัตร:</span>
+                                <p class="text-gray-600">${cert.certificateName}</p>
+                            </div>
+                            <div>
+                                <span class="font-medium text-gray-700">วันที่ได้รับ:</span>
+                                <p class="text-gray-600">${this.formatDate(cert.certificateDate)}</p>
+                            </div>
+                            <div>
+                                <span class="font-medium text-gray-700">หน่วยงานที่มอบ:</span>
+                                <p class="text-gray-600">${cert.issuedBy}</p>
+                            </div>
+                            ${cert.certificateNotes ? `
+                            <div>
+                                <span class="font-medium text-gray-700">หมายเหตุ:</span>
+                                <p class="text-gray-600">${cert.certificateNotes}</p>
+                            </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                `).join('');
+            }
+
+            updateStatistics() {
+                const totalCertificates = this.certificates.length;
+                const uniqueTeachers = new Set(this.certificates.map(cert => cert.teacherName)).size;
+                
+                const currentYear = new Date().getFullYear();
+                const thisYearCertificates = this.certificates.filter(cert => {
+                    const certDate = new Date(cert.certificateDate);
+                    return certDate.getFullYear() === currentYear;
+                }).length;
+
+                const typeCounts = {};
+                this.certificates.forEach(cert => {
+                    if (cert.certificateType) {
+                        typeCounts[cert.certificateType] = (typeCounts[cert.certificateType] || 0) + 1;
+                    }
+                });
+                
+                const mostActiveType = Object.keys(typeCounts).length > 0 
+                    ? Object.keys(typeCounts).reduce((a, b) => typeCounts[a] > typeCounts[b] ? a : b)
+                    : '-';
+
+                document.getElementById('totalCertificates').textContent = totalCertificates;
+                document.getElementById('totalTeachers').textContent = uniqueTeachers;
+                document.getElementById('thisYearCertificates').textContent = thisYearCertificates;
+                document.getElementById('mostActiveType').textContent = mostActiveType;
+            }
+
+            formatDate(dateString) {
+                if (!dateString) return '';
+                const date = new Date(dateString);
+                return date.toLocaleDateString('th-TH', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+            }
+
+            clearForm() {
+                document.getElementById('certificateForm').reset();
+            }
+
+            showMessage(message, type = 'success') {
+                const bgColor = type === 'success' ? 'bg-green-500' : 'bg-red-500';
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `fixed top-4 right-4 ${bgColor} text-white px-6 py-3 rounded-lg shadow-lg z-50`;
+                messageDiv.textContent = message;
+                document.body.appendChild(messageDiv);
+
+                setTimeout(() => {
+                    messageDiv.remove();
+                }, 5000);
+            }
+        }
+
+        // Initialize the application
+        const teacherCertManager = new TeacherCertificateManager();
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'98309e419131fd20',t:'MTc1ODUzMTY5Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
