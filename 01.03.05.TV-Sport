@@ -1,3 +1,93 @@
+{
+"name"		: "SPORT MonoMax",
+"author"	: "update 22/03/68  ",
+"image"		: "https://drive.google.com/uc?id=19oeAX0kf_LxYofdD-G0vj9UPCHdLpHMr",
+"info": "",
+   "groups": [ 
+     
+
+
+{
+name                    :    "MonoMax1",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport1.png",
+         "stations": [ 
+
+
+{
+name    		:    	"MonoMax1",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport1.png",
+"url": "https://cdn1.googlecdn.live/4k/monomax1/chunks.m3u8",
+"referer": "https://footballsod.live/",
+"info":"","playInNatPlayer": "true"
+},
+
+
+{
+name    		:    	"MonoMax1",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport1.png",
+    "url": "https://cdn1.googlecdnforstreaming.live/live/monomax1/chunks.m3u8",
+"referer": "https://warpdooball.net/",
+     "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+},
+
+{
+name    		:    	"MonoMax1",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport1.png",
+"url": "https://raw.githubusercontent.com/tamfan46/MIAdata/refs/heads/main/monoplus.m3u8",
+  "referer": "https://github.com/",
+"userAgent":"http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+"playInNatPlayer":"true"
+},
+
+
+{
+name    		:    	"MonoMax1",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport1.png",
+"url": "https://cdn1.googlecdnforstreaming.live/live/monomax1/chunks.m3u8",
+"referer": "https://warpdooball.net/",
+"userAgent":"http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+"playInNatPlayer":"true"
+},
+
+
+{
+name    		:    	"MonoMax1",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport1.png",
+"url":"https://ball67.com/channels/monomax1/",
+"playInNatPlayer":"true"},
+
+
+
+{
+name    		:    	"MonoMax1 365",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport1.png",
+"url": "https://ul1.hellotherepadawan.org:9312/v5/mXEZYEkS7K3cq7dzdY0tRA/1758969586/4e138ebf172e86945fe3dd4efbeab5bd/iZvX85AJErjVAIcYqCZlmw/1758980266/live/lx-origin/th-monomax03bkp_720/chunks.m3u8",
+"referer": "https://livesod365.info/",
+"userAgent":"http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+"playInNatPlayer":"true"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+      },
+
+
+
+
+{
+name                    :    "MonoMax2",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport2.png",
+         "stations": [ 
 
 
 
@@ -5,183 +95,322 @@
 
 
 {
-"name": "Premier Bein⚽",
-"author": "Premier Bein⚽",
-"image":"https://i.imgur.com/NeZsNcV.gif",
-"url": "https://dl.dropboxusercontent.com/scl/fi/dwe1xeejht4birz7c83wn/DooTube-Premier.txt?rlkey=rg76gk8qbcpr5h7lsakmv63jx&st=xhcu82j9&dl=0",
-"info": "Ð∞𝐓𝐔𝐁𝐄",
-"stations": [
-{"name":"Monomax1-A",
-"image":"https://cdn.imgchest.com/files/7kzcaw8mle7.png",
-"url": "https://dookeela2.live/live-tv/monomax1",
-"playInNatPlayer":"true"},
-{"name":"Monomax1-B",
-"image":"https://cdn.imgchest.com/files/7kzcaw8mle7.png",
-"url": "https://goal-th.com/ช่องรายการทีวี/?id=606&tv=Monomax1",
-"playInNatPlayer":"true"},
-{"name":"Monomax1-C",
-"image":"https://cdn.imgchest.com/files/7kzcaw8mle7.png",
-"url":"https://cdnsv1.bunnycdncloud.com/andaman888th/monomax1/playlist.m3u8",
-"referer": "https://www.andaman888th.net/",
-"playInNatPlayer":"true"},
-{"name":"Monomax1-D",
-"image":"https://cdn.imgchest.com/files/7kzcaw8mle7.png",
-"url": "https://cdn1.googlecdnforstreaming.live/live/monomax1/chunks.m3u8",
-"referer": "https://warpdooball.net/",
-"playInNatPlayer":"true"},
-{"name":"Monomax1-E",
-"image":"https://cdn.imgchest.com/files/7kzcaw8mle7.png",
-"url": "https://www.ball24.tv/allchannel/?id=monomax1",
-"playInNatPlayer":"true"},
-{"name":"Monomax2-A",
-"image":"https://cdn.imgchest.com/files/y2pckda8b37.png",
-"url": "https://www.ball24.tv/allchannel/?id=monomax2",
-"playInNatPlayer":"true"},
-{"name":"Monomax2-B",
-"image":"https://cdn.imgchest.com/files/y2pckda8b37.png",
-"url": "https://168dooball.net/live-stream/?mode=ball&ch=monomax2",
-"playInNatPlayer":"true"},
-{"name":"Monomax3-A",
-"image":"https://cdn.imgchest.com/files/7lxcpr3obw7.png",
-"url": "https://dookeela2.live/live-tv/ais-monomax-3",
-"playInNatPlayer":"true"},
-{"name":"Monomax3-B",
-"image":"https://cdn.imgchest.com/files/7lxcpr3obw7.png",
-"url": "https://goal-th.com/ช่องรายการทีวี/?id=607&tv=Monomax3โมโนแมกซ์3",
-"playInNatPlayer":"true"},
-{"name":"Monomax3-C",
-"image":"https://cdn.imgchest.com/files/7lxcpr3obw7.png",
-"url": "https://cdn1.googlecdnforstreaming.live/live/ais-monomax-3/chunks.m3u8",
-"referer": "https://warpdooball.net/",
-"playInNatPlayer":"true"},
-{"name":"Monomax4-A",
-"image":"https://cdn.imgchest.com/files/4jdcv3zqpm4.png",
-"url": "https://dookeela2.live/live-tv/ais-monomax-4",
-"playInNatPlayer":"true"},
-{"name":"Monomax4-B",
-"image":"https://cdn.imgchest.com/files/4jdcv3zqpm4.png",
-"url": "https://goal-th.com/ช่องรายการทีวี/?id=608&tv=Monomax4โมโนแมกซ์4",
-"playInNatPlayer":"true"},
-{"name":"Monomax4-C",
-"image":"https://cdn.imgchest.com/files/4jdcv3zqpm4.png",
-"url": "https://cdn1.googlecdnforstreaming.live/live/ais-monomax-4/chunks.m3u8",
-"referer": "https://warpdooball.net/",
-"playInNatPlayer":"true"},
-{"name":"Astro Premier1-A🇲🇾",
-"image":"https://i.imgur.com/QRjkdNF.png",
-"url": "https://goal-th.com/ช่องรายการทีวี/?id=537&tv=AstroPremierLeague",
-"playInNatPlayer": "true"},
-{"name":"Astro Premier1-B🇲🇾",
-"image":"https://i.imgur.com/QRjkdNF.png",
-"url": "http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186387&extension=ts",
-"playInNatPlayer":"true"},
-{"name":"Astro Premier2-A🇲🇾",
-"image":"https://i.imgur.com/8aaF0dL.png",
-"url": "https://goal-th.com/ช่องรายการทีวี/?id=536&tv=AstroPremierLeague2",
-"playInNatPlayer": "true"},
-{"name":"Astro Premier2-B🇲🇾",
-"image":"https://i.imgur.com/8aaF0dL.png",
-"url": "http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186388&extension=ts",
-"playInNatPlayer":"true"},
-{"name":"Astro Football-A🇲🇾",
-"image":"https://i.imgur.com/dR0DfvN.png",
-"url": "https://goal-th.com/ช่องรายการทีวี/?id=534&tv=AstroFootball",
-"playInNatPlayer": "true"},
-{"name":"Astro Football-B🇲🇾",
-"image":"https://i.imgur.com/dR0DfvN.png",
-"url": "http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186390&extension=ts",
-"playInNatPlayer":"true"},
-{"name":"Sky Sports Football-A🇬🇧",
-"image":"https://i.imgur.com/lJczzFE.png",
-"url": "https://www.ball24.tv/allchannel/?id=skysportsfootball",
-"playInNatPlayer":"true"},
-{"name":"Sky Sports Football-B🇬🇧",
-"image":"https://i.imgur.com/lJczzFE.png",
-"url": "https://7pal.short.gy/ssportsfb",
-"playInNatPlayer":"true"},
-{"name":"Sky Sports Epl-A🇬🇧",
-"image":"https://i.imgur.com/arDXxug.png",
-"url": "https://7pal.short.gy/ssportspl",
-"playInNatPlayer":"true"},
-{"name":"Sky Sports Epl-B🇬🇧",
-"image":"https://i.imgur.com/arDXxug.png",
-"url": "http://tbtv.me:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=175180&extension=ts",
-"playInNatPlayer": "true"},
-{"name":"Prima Sport1🇷🇴",
-"image": "https://i.imgur.com/bkDFZW5.png",
-"url": "https://dookeela2.live/live-tv/primasport1",
-"playInNatPlayer": "true"},
-{"name": "FWSport",
-"image": "https://i.imgur.com/HMwqcHX.png",
-"url": "https://www.inwiptv.com/player_demo.php?channel=89782",
-"playInNatPlayer": "true"},
-{"name": "beIN Sports1-A🇹🇭",
-"image": "https://i.imgur.com/HIcVnMV.png",
-"url": "https://cdn1.googlecdnforstreaming.live/live/bein1/chunks.m3u8",
-"referer": "https://warpdooball.net/",
-"playInNatPlayer": "true"},
-{"name": "beIN Sports1-B🇹🇭",
-"image": "https://i.imgur.com/HIcVnMV.png",
-"url":"https://cdnsv1.bunnycdncloud.com/andaman888th/bein1/th-sport/bein1/chunks.m3u8",
-"referer": "https://www.andaman888th.net/",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports1-C🇹🇭",
-"image": "https://i.imgur.com/HIcVnMV.png",
-"url": "https://dolive.thaim3u.com/doolive4k-tv/siamsport-1/playlist.m3u8",
-"referer":"https://doolive4k.tv/",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports1-D🇹🇭",
-"image": "https://i.imgur.com/HIcVnMV.png",
-"url": "https://goal-th.com/ช่องรายการทีวี/?id=44&tv=บีอินสปอตส์1",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports1-E🇹🇭",
-"image": "https://i.imgur.com/HIcVnMV.png",
-"url": "https://www.livedoomovies.com:4432/02_epl1_720p/chunklist.m3u8",
-"referer": "https://www.madoohd.com/",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports1-F🇹🇭",
-"image": "https://i.imgur.com/HIcVnMV.png",
-"url": "https://www.ball24.tv/allchannel/?id=bein1",
-"referer": "https://www.ball24.tv/",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports2-A🇹🇭",
-"image": "https://i.imgur.com/Qz0dlG5.png",
-"url": "https://www.ball24.tv/allchannel/?id=bein2",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports2-B🇹🇭",
-"image": "https://i.imgur.com/Qz0dlG5.png",
-"url":"https://cdnsv1.bunnycdncloud.com/andaman888th/bein2/th-sport/bein2/chunks.m3u8",
-"referer": "https://www.andaman888th.net/",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports2-C🇹🇭",
-"image": "https://i.imgur.com/Qz0dlG5.png",
-"url": "https://fw4free.inwstream.com/fw4free/bein2.stream/chunklist.m3u8",
-"referer": "https://fw4free.com/",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports3-A🇹🇭",
-"image": "https://i.imgur.com/YprJFA2.png",
-"url":"https://cdnsv1.bunnycdncloud.com/andaman888th/bein3/th-sport/bein3/chunks.m3u8",
-"referer": "https://www.andaman888th.net/",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports3-B🇹🇭",
-"image": "https://i.imgur.com/YprJFA2.png",
-"url": "https://dolive.thaim3u.com/doolive4k-tv/siamsport-3/chunks.m3u8",
-"referer": "https://doolive4k.tv/",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports3-C🇹🇭",
-"image": "https://i.imgur.com/YprJFA2.png",
-"url": "https://www.ball24.tv/allchannel/?id=bein3",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports3-D🇹🇭",
-"image": "https://i.imgur.com/YprJFA2.png",
-"url": "https://www.livedoomovies.com:4432/02_epl2_720p/chunklist.m3u8",
-"referer": "https://www.madoohd.com/",
-"playInNatPlayer":"true"},
-{"name": "beIN Sports",
-"image": "https://cdn.imgchest.com/files/y2pckdnvve7.png",
-"url": "https://fl5.moveonjoy.com/BEIN_SPORTS/index.m3u8",
-"playInNatPlayer":"true"},
-]
+name    		:    	"MonoMax2",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport2.png",
+	"url": "https://dkl-c33es.cdn.akamaiz.com/dooballfree24hr/ais-monomax-2/chunks.m3u8", 
+	"referer": "https://fw4free.com/", 
+	"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" 
 },
 
 
+{
+name    		:    	"MonoMax2",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport2.png",
+"url":"https://ball67.com/channels/monomax2",
+"referer": "https://ball67.com/",
+"playInNatPlayer":"true"},
+
+
+{
+name    		:    	"MonoMax2",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport2.png",
+"url"			: 	"https://168dooball.io/live-stream/?mode=ball&ch=monomax2", 
+"referer"		: 	"https://168dooball.io/", 
+"playInNatPlayer"	: 	"true"}, 
+
+
+
+
+
+
+{
+name    		:    	"MonoMax2",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport2.png",
+"url"			: 	"https://ballthaitv.com/soccer/doball/ch613/", 
+"referer"		: 	"", 
+"playInNatPlayer"	: 	"true"}, 
+
+
+
+
+
+
+{
+name    		:    	"MonoMax2",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport2.png",
+"url"			: 	"https://cdn1.googlecdnforstreaming.live/live/monomax-2/playlist.m3u8?wmsAuth=", 
+"referer"		: 	"https://warpdooball.net/", 
+"playInNatPlayer"	: 	"true"}, 
+
+
+{
+name    		:    	"MonoMax2",
+image   		:    	"https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport2.png",
+"url":"https://www.livedoomovies.com:4432/Monomax_Live_2HD/chunklist.m3u8",
+"referer": "https://www.livedoomovies.com",
+"playInNatPlayer":"true"},
+
+
+
+
+
+
+  ]
+      },
+
+
+
+
+{
+name                    :    "MonoMax3",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport3.png",
+         "stations": [ 
+
+
+{
+name                    :    "MonoMax3",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport3.png",
+	"url": "https://dkl-c33es.cdn.akamaiz.com/dooballfree24hr/ais-monomax-3/chunks.m3u8", 
+	"referer": "https://fw4free.com/", 
+	"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" 
+},
+
+
+
+
+{
+name                    :    "MonoMax3",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport3.png",
+"url":"https://dookeela2.live/live-tv/ais-monomax-3",
+  "referer": "https://dookeela.live/live-tv",
+"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36","playInNatPlayer": "true",
+"playInNatPlayer": "true"
+},
+
+
+
+
+{
+name                    :    "MonoMax3",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport3.png",
+"url":"https://ball67.com/channels/monomax3",
+"referer": "https://ball67.com/",
+"playInNatPlayer":"true"},
+
+
+
+
+{
+name                    :    "MonoMax3",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport3.png",
+"url":"https://ballthaitv.com/soccer/doball/ch614/",
+"referer": "https://ball67.com/",
+"playInNatPlayer":"true"},
+
+
+
+
+{
+name                    :    "MonoMax3",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport3.png",
+"url"			: 	"https://168dooball.io/live-stream/?mode=ball&ch=monomax3", 
+"referer"		: 	"https://168dooball.io/", 
+"playInNatPlayer"	: 	"true"}, 
+
+
+
+
+
+
+{
+name                    :    "MonoMax3",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport3.png",
+"url"			: 	"https://cdn1.googlecdnforstreaming.live/live/monomax-3/playlist.m3u8?wmsAuth=", 
+"referer"		: 	"https://warpdooball.net/", 
+"playInNatPlayer"	: 	"true"}, 
+
+
+{
+name                    :    "MonoMax3",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport3.png",
+"url": "https://www.livedoomovies.com:4432/Monomax_Live_3HD/chunklist.m3u8",
+"info":"",
+"referer": "https://www.livedoomovies.com"
+},,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+      },
+
+
+{
+name                    :    "MonoMax4",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport4.png",
+         "stations": [ 
+
+
+{
+name                    :    "MonoMax4",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport4.png",
+	"url": "https://dkl-c33es.cdn.akamaiz.com/dooballfree24hr/ais-monomax-4/chunks.m3u8", 
+	"referer": "https://fw4free.com/", 
+	"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" 
+},
+
+
+{
+name                    :    "MonoMax4",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport4.png",
+"url":"https://ball67.com/channels/monomax4",
+"referer": "https://ball67.com/",
+"playInNatPlayer":"true"},
+
+
+
+
+{
+name                    :    "MonoMax4",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport4.png",
+"url":"https://ballthaitv.com/soccer/doball/ch615/",
+"referer": "https://ball67.com/",
+"playInNatPlayer":"true"},
+
+
+
+
+{
+name                    :    "MonoMax4",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport4.png",
+"url"			: 	"https://168dooball.io/live-stream/?mode=ball&ch=monomax4", 
+"referer"		: 	"https://168dooball.io/", 
+"playInNatPlayer"	: 	"true"}, 
+
+
+
+
+
+
+{
+name                    :    "MonoMax4",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport4.png",
+"url"			: 	"https://cdn1.googlecdnforstreaming.live/live/monomax-4/playlist.m3u8?wmsAuth=", 
+"referer"		: 	"https://warpdooball.net/", 
+"playInNatPlayer"	: 	"true"}, 
+
+
+{
+name                    :    "MonoMax4",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport4.png",
+"url":"https://www.livedoomovies.com:4432/Monomax_Live_4HD/chunklist.m3u8",
+"referer": "https://www.livedoomovies.com",
+"playInNatPlayer":"true"},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+      },
+
+
+{
+name                    :    "MonoMax5",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport5.png",
+         "stations": [ 
+
+
+{
+name                    :    "MonoMax5",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport5.png",
+	"url": "https://dkl-c33es.cdn.akamaiz.com/dooballfree24hr/ais-monomax-5/chunks.m3u8", 
+	"referer": "https://fw4free.com/", 
+	"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" 
+},
+
+
+{
+name                    :    "MonoMax5",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport5.png",
+"url":"https://ball67.com/channels/monomax5",
+"referer": "https://ball67.com/",
+"playInNatPlayer":"true"},
+
+
+
+
+{
+name                    :    "MonoMax5",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport5.png",
+"url":"https://ballthaitv.com/soccer/doball/ch616/",
+"referer": "https://ball67.com/",
+"playInNatPlayer":"true"},
+
+
+
+
+{
+name                    :    "MonoMax5",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport5.png",
+"url"			: 	"https://168dooball.io/live-stream/?mode=ball&ch=monomax5", 
+"referer"		: 	"https://168dooball.io/", 
+"playInNatPlayer"	: 	"true"}, 
+
+
+
+
+
+
+{
+name                    :    "MonoMax5",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport5.png",
+"url"			: 	"https://cdn1.googlecdnforstreaming.live/live/monomax-5/playlist.m3u8?wmsAuth=", 
+"referer"		: 	"https://warpdooball.net/", 
+"playInNatPlayer"	: 	"true"}, 
+
+
+{
+name                    :    "MonoMax5",
+image   		:    "https://www.img02.xyz/assets/img/ch_logo/Monomax_Sport5.png",
+"url":"https://www.livedoomovies.com:4432/Monomax_Live_5HD/chunklist.m3u8",
+"referer": "https://www.livedoomovies.com",
+"playInNatPlayer":"true"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   }
+   ]
+  }
+ ]
+}
